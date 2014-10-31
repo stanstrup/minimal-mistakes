@@ -1,8 +1,9 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Lost Echoes
 locale:           en_US
-url:              http://localhost:4000
+url:              http://srijanshetty.in
+# url:               http://localhost:4000
 
 
 # Jekyll configuration
@@ -23,30 +24,29 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
-
 # Site owner
 owner:
-  name: Your Name
+  name: Srijan R. Shetty
   avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
-  disqus-shortname: 
-  twitter: #username
-  facebook: #username
+  bio: "Eccentric, Scribler, Hacker"
+  email: srijan.shetty+blog@gmail.com
+  disqus-shortname: srijanshetty
+  twitter: srijanshetty
+  facebook: srijanrshetty
   google:
-    plus: #username
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
-  github: #username
+    plus: SrijanRShetty
+    analytics: UA-54744194-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: srijanshetty
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  lastfm: #username
+  linkedin: srijan-r-shetty
+  # instagram: srijanshetty
+  lastfm: srijanshetty
   tumblr: #username
-  pinterest: #username
+  # pinterest: srijanshetty
   foursquare: #username
   steam: #username
   dribbble: #username
