@@ -3,6 +3,16 @@ layout: project-index
 title: Hack Love
 excerpt: "A List of Things I can boast about"
 projects:
+    - title: "OARS"
+      link: "http://oars.navya.github.io"
+      image: "/images/oars.jpg"
+      info: "Course Lookup, IIT Kanpur"
+
+    - title: "GYPH"
+      link: "http://gyph2.herokuapp.com/template1"
+      image: "/images/gyph.jpg"
+      info: "WYSIWIG editor for creating webpages"
+
     - title: "Antaragni '14"
       link: "http://antaragni.srijanshetty.in"
       image: "/images/antaragni.jpg"
@@ -17,5 +27,9 @@ projects:
       link: "http://udghosh.srijanshetty.in"
       image: "/images/udghosh.jpg"
       info: "Website of Udghosh '13, IIT Kanpur's annual sports festival"
+
+    - title: "Antaragni All Team Meet"
+      link: "http://atm.srijanshetty.in"
+      info: "All Team Meet presentation of Antaragni '14"
 
 ---
