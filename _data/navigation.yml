@@ -11,3 +11,6 @@
 
 - title: Resume
   url: /cv.pdf
+
+- title: RSS
+  url: /feed.xml
