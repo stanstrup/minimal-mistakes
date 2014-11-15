@@ -3,8 +3,13 @@ layout: project-index
 title: Hack Love
 excerpt: "A List of Things I can boast about"
 projects:
+    - title: "Multifactor Authentication in OpenVPN"
+      link: "https://wiki.mozilla.org/Security/Mentorships/MWoS/2014/OpenVPN_MFA"
+      image: "/images/MWoS.png"
+      info: "Project done under Mozilla's Winter of Security 2014"
+
     - title: "OARS"
-      link: "http://oars.navya.github.io"
+      link: "http://navya.github.io/oars"
       image: "/images/oars.jpg"
       info: "Course Lookup, IIT Kanpur"
 
