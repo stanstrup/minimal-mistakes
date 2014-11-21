@@ -1,9 +1,9 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+excerpt: "Srijan R Shetty : Eccentric, Scribbler, Hacker"
+tags: [Blog, tech, poems, rants, hacks]
 image:
-  feature: sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: marvante.jpg
+  credit: Srijan R Shetty, Marvante Beach
+  creditlink: http://srijanshetty.in/images/marvante.jpg
 ---
