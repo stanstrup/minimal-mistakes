@@ -5,5 +5,5 @@ tags: [Blog, tech, poems, rants, hacks]
 image:
   feature: marvante.jpg
   credit: Srijan R Shetty, Marvante Beach
-  creditlink: http://srijanshetty.in/images/marvante.jpg
+  creditlink: http://srijanshetty.in/
 ---

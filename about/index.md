@@ -5,10 +5,10 @@ tags: [about, Srijan R. Shetty, ]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
 image:
-  feature: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: marvante.jpg
+  credit: Srijan R Shetty, Marvante Beach
+  creditlink: http://srijanshetty.in
 ---
 
 I'm Srijan R. Shetty, a Computer Science Undergraduate at Indian Institute of Technology Kanpur.
-I'm an eccentric, scribbler and a hacker (not in the pejorative sense).
+I think of myself as an eccentric scribbler and hacker (not the pejorative one).
