@@ -13,12 +13,12 @@ Academic Background
 -------------------
 
 | Degree                                            | Year           | Performance  |
-|:--------------------------------------------------|:---------------------------------------|:---------------|:-------------|
+|:--------------------------------------------------|:---------------|:-------------|
 | B. Tech., IIT Kanpur                              | 2015           | CPI 9.5 (10) |
 |----
-| Senior School Certificate Examination, CBSE Board | 2011           | 91.4%        |
+| The Emerald Heights International, CBSE Board     | 2011           | 91.4%        |
 |----
-| Secondary School Examination, ICSE Board          | 2009           | 95.4%        |
+| Laurels School International, ICSE Board          | 2009           | 95.4%        |
 |=====
 |
 {: rules="groups"}
@@ -60,3 +60,4 @@ Major Courses
 - Social Psychology
 - Elements of Visual Representation
 - Human Rights
+
