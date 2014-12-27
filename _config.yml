@@ -43,14 +43,14 @@ owner:
   github: srijanshetty
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: srijanshetty
-  # instagram: srijanshetty
+  instagram: srijanshetty
   lastfm: srijanshetty
   tumblr: #username
-  # pinterest: srijanshetty
+  pinterest: srijanshetty
   foursquare: #username
   steam: #username
   dribbble: #username
-  # youtube: srijanshetty
+  youtube: srijanshetty
   soundcloud: #username
 
 include: [".htaccess"]
