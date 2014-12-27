@@ -6,6 +6,7 @@ categories: technical
 excerpt: dotfiles nirvana using vcsh and mr
 tags: [vcsh, mr, dotfiles, shell, zsh]
 date: 2014-12-27T17:42:20+05:30
+comments: true
 ---
 
 <section id="table-of-contents" class="toc">
@@ -90,28 +91,28 @@ Caveat: A lot of this section is derivative of the about mentioned article.
 
 If you want to manage a new tool and its dotfiles with vcsh and myrepos, follow the steps given below using ack as example.
 
-1. Create a new remote repository for the tool you want to manage with vcsh.
+- Create a new remote repository for the tool you want to manage with vcsh.
 
 {% highlight bash %}
 vcsh init ack
 {% endhighlight %}
 
-2. The URL to clone that repository might look like: *git@github.com/vcsh-ack.git*.
-3. Add new myrepos config file *~/.config/mr/available.d/ack.vcsh*, which might look as follows:
+- The URL to clone that repository might look like: *git@github.com/vcsh-ack.git*.
+- Add new myrepos config file *~/.config/mr/available.d/ack.vcsh*, which might look as follows:
 
 {% highlight ini %}
 [$HOME/.config/vcsh/repo.d/ack.git]
 checkout = vcsh clone git@github.com:srijanshetty/vcsh-ack.git ack
 {% endhighlight %}
 
-4. Create a symbolic link to tell mr to include this repository:
+- Create a symbolic link to tell mr to include this repository:
 
 {% highlight bash %}
 cd ~/.config/mr/config.d/
 ln -s ../available.d/ack.vcsh .
 {% endhighlight %}
 
-5. Commit and push your changes in your local myrepos repository:
+- Commit and push your changes in your local myrepos repository:
 
 {% highlight bash %}
 vcsh mr add ~/.config/mr
@@ -119,13 +120,13 @@ vcsh mr commit -m "[ack] add vcsh repository"
 vcsh mr push
 {% endhighlight %}
 
-7. Add the tool's dotfiles by to vcsh.
+- Add the tool's dotfiles by to vcsh.
 
 {% highlight bash %}
 vcsh ack add .ackrc
 {% endhighlight %}
 
-9. Create, customize, and add the tool-specific excludesfile. (More info about it over here)
+- Create, customize, and add the tool-specific excludesfile. (More info about it over [here](#gitignore))
 
 {% highlight bash %}
 vcsh write-gitignore ack
@@ -134,7 +135,7 @@ vcsh write-gitignore ack
 vcsh ack add .gitignore.d/ack
 {% endhighlight %}
 
-10. Commit and push your changes in your local ack repository:
+- Commit and push your changes in your local ack repository:
 
 {% highlight bash %}
 vcsh ack commit -m "[Initial Commit] add initial ackrc file"
@@ -157,13 +158,13 @@ Bam! It's done!
 
 The work-flow for adding new files/updating files is simple enough.
 
-1. After updating the files or adding new files, run:
+- After updating the files or adding new files, run:
 
 {% highlight bash %}
 vcsh <REPO_NAME> add <FILE_NAME>
 {% endhighlight %}
 
-2. Then commit the changes and push
+- Then commit the changes and push
 
 {% highlight bash %}
 vcsh <REPO_NAME> commit -m "Yowza!"
@@ -244,24 +245,3 @@ Caveats
 
 1. vcsh version 1.2 onwards solves 1 using a **vcsh status** command.
 2. [This](https://github.com/srijanshetty/custom/blob/master/functions/myrepos.zsh) script creates wrappers for automating most of this.
-
-Tracked Tools
--------------
-
-Following is a list of the tools I'm using vcsh to track:
-
-- [beets]
-- [ledger]
-- [ssh]
-- [sandbox](https://github.com/srijanshetty/vcsh-sandbox)
-- [git](https://github.com/srijanshetty/vcsh-git)
-- [mr](https://github.com/srijanshetty/vcsh-mr)
-- [tmux](https://github.com/srijanshetty/vcsh-tmux)
-- [vim](https://github.com/srijanshetty/vcsh-vim)
-- [misc](https://github.com/srijanshetty/vcsh-misc)
-- [zsh](https://github.com/srijanshetty/vcsh-zsh)
-
-License
--------
-
-This project is licensed under the terms of the [MIT LICENSE](LICENSE)
