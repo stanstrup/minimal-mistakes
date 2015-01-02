@@ -4,7 +4,7 @@ title: "Almanac"
 date: Fri Jan  2 15:12:28 IST 2015
 modified: Fri Jan  2 15:12:28 IST 2015
 excerpt: My Almanac - the music, software, movies that I love
-tags: [music, movies, software, recommendations]
+tags: [music, movies, software, media, recommendations]
 ---
 
 ## Books
