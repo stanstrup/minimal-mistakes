@@ -16,47 +16,9 @@ I've only recently started tracking the books which I've read or I intend to rea
 ## RSS
 I read RSS on Digg (for-it-matters-which-RSS-reader-you-use).
 Over the years I've found the following blogs to be very insightful and entertaining:
+<br/><br/>
 
-- Benjamin Cane
-- danielmiessler.com
-- Matt Might's blog
-- Coding Horror
-- Lambda the Ultimate - Programming Languages Weblog
-- CommitStrip - Blog relating the daily life of web agencies developers
-- The Curious Case of Curd Rice
-- xkcd.com
-- Texts From Superheroes
-- ZEN PENCILS
-- Textastrophe
-- Ashish Shakya
-- Servers for Hackers
-- All commands
-- HTML5Rocks
-- The Changelog
-- David Walsh Blog
-- The Jackal of Javascript
-- Scott Smith
-- DevTools Tips
-- DailyJS
-- Smashing Magazine Feed
-- don't code today what you can't debug tomorrow
-- Hacker News
-- Echo JS
-- Hidden Variables
-- The JavaScript Playground
-- ②ality – JavaScript and more
-- NCZOnline
-- Addy Osmani
-- Remy Sharp
-- John Resig
-- Paul Irish
-- The Universe of Discourse
-- nixCraft: Linux Tips, Hacks, Tutorials, And Ideas In Blog Format
-- http://blog.nodesecurity.io/rss
-- Pascal Precht
-- SysadminCasts
-- Minimul
-- Vimcasts OGG Feed
+{% include digg-feeds.md %}
 
 ## Software
 I was introduced to the world of open source in college and I've never looked back.
