@@ -28,6 +28,7 @@ Here's a list of some tools I can't live without:
 - [tmux](https://github.com/srijanshetty/vcsh-tmux): terminal multiplexer.
 - [vcsh and mr](/technical/vcsh-mr-dotfiles-nirvana/): dotfiles nirvana.
 - [vim](https://github.com/srijanshetty/vim-plug/): cause every other editor feels half baked.
+- [zsh]A(https://github.com/srijanshetty/zsh)
 
 **Media organization**<br/><br/>
 I'm an obsessive compulsive, and I've dedicated my life to sorting my <strike>shit</strike>  media.
@@ -43,6 +44,8 @@ I'm an obsessive compulsive, and I've dedicated my life to sorting my <strike>sh
 **Miscellaneous**<br/><br/>
 An assorted list of other utilities that come in handy.
 
-- [Zathura](https://pwmt.org/projects/zathura/): PDF Viewer.
 - [btsync](http://www.getsync.com/download): BitTorrent Sync.
+- [vagrant](https://vagrantup.com): Reproducible dev environments.
+- [zathura](https://pwmt.org/projects/zathura/): PDF Viewer.
+
 
