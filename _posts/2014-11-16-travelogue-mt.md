@@ -3,6 +3,7 @@ layout: post
 title: "Travelogue - MT"
 modified: 2015-02-14T23:06:57+05:30
 execerpt: "A land lost in time"
+categories: poems
 tags: [poems, travelogue, MT]
 image:
   feature: sample-image-4.jpg
