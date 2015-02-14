@@ -7,14 +7,14 @@ tags: ["academics", "graduation", "iit kanpur", "computer"]
 comments: true
 ---
 
-I'm a senior undergraduate student at the <a href="http://cse.iitk.ac.in">Department of Computer Science and Engineering</a>, Indian Institute of Kanpur.
+I'm a senior undergraduate student at the <a href="http://cse.iitk.ac.in">Department of Computer Science and Engineering</a>, <a href="www.iitk.ac.in">Indian Institute of Technology Kanpur.</a>
 
 Academic Background
 -------------------
 
 | Degree                                            | Year           | Performance  |
 |:--------------------------------------------------|:---------------|:-------------|
-| B. Tech., IIT Kanpur                              | 2015           | CPI 9.5 (10) |
+| B. Tech., IIT Kanpur                              | 2015           | CPI 9.6 (10) |
 |----
 | The Emerald Heights International, CBSE Board     | 2011           | 91.4%        |
 |----
@@ -46,8 +46,11 @@ Major Courses
 - Compilers
 - Computer Networks
 - Network and Internet Security
+- Database Systems
+- Searching and Indexing in Databases
 - Principles of Programming Languages
-- Artificial Interlligence
+- Machine Learning Tools and Techniques
+- Artificial Intelligence
 
 **Economics:**
 
