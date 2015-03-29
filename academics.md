@@ -24,8 +24,30 @@ Academic Background
 {: rules="groups"}
 
 
+Teaching
+--------
+
+- **Tutor**, Fundamentals of Computing (ESC101), Winter Semester, 2014-2015
+- **Academic Mentor**, Fundamentals of Computing (ESC101), Winter Semester, 2012-2013
+
+
 Major Courses
 -------------
+
+**Computer Science:**
+
+- Searching and Indexing in Databases
+- Database Systems
+- Network and Internet Security
+- Compilers
+- Principles of Programming Languages
+- Operating Systems
+- Computer Networks
+- Computer Organization
+- Data Structures and Algorithms
+- Design and Analysis of Algorithms
+- Machine Learning Tools and Techniques
+- Artificial Intelligence
 
 **Mathematics:**
 
@@ -37,20 +59,6 @@ Major Courses
 - Probability and Statistics
 - Numerical Method of Approximation
 
-**Computer Science:**
-
-- Data Structures and Algorithms
-- Design and Analysis of Algorithms
-- Computer Organization
-- Operating Systems
-- Compilers
-- Computer Networks
-- Network and Internet Security
-- Database Systems
-- Searching and Indexing in Databases
-- Principles of Programming Languages
-- Machine Learning Tools and Techniques
-- Artificial Intelligence
 
 **Economics:**
 
