@@ -33,22 +33,42 @@
 </div>
 
 <div id="index">
-  <h1>{{ page.title }}</h1>
   {% for post in page.projects %}
 
     <article>
       <h3 class="project-title">{{ post.title }}</h3>
 
-      {% if post.link %}
         {% if post.image %}
-        <a href="{{ post.link }}" title="{{ post.title }}"> <img class="project-image" src="{{ site.url }}{{post.image}}"/> </a>
+            <a href="{{ post.link }}" title="{{ post.title }}">
+                <img class="project-image" src="{{ site.url }}{{post.image}}"/>
+            </a>
         {% endif %}
 
-        <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.info }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
-      {% else %}
-        <h4><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.info }}</a></h4>
-        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
-      {% endif %}
+        <div class="project-content">
+
+            {% if post.github %}
+            <span class="project-link">
+                <i class="fa fa-github fa-2x"></i>
+                <a href="{{ post.github }}" title="{{ post.title }}"></a>
+            </span>
+            {% endif %}
+
+            {% if post.pdf %}
+            <span class="project-link">
+                <i class="fa fa-file-pdf-o fa-2x"></i>
+                <a href="{{ post.pdf }}" title="{{ post.title }}"></a>
+            </span>
+            {% endif %}
+
+            {% if post.link %}
+            <span class="project-link">
+                <i class="fa fa-link fa-2x"></i>
+                <a href="{{ post.link }}" title="{{ post.title }}"></a>
+            </span>
+            {% endif %}
+
+            <p>{{ post.about | strip_html | truncate: 160 }}</p>
+        </div>
     </article>
   {% endfor %}
 </div><!-- /#index -->
