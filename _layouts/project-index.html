@@ -67,7 +67,7 @@
             </span>
             {% endif %}
 
-            <p>{{ post.about | strip_html | truncate: 160 }}</p>
+            <p>{{ post.about | truncate: 180 }}</p>
         </div>
     </article>
   {% endfor %}
