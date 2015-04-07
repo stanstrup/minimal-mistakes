@@ -41,11 +41,6 @@ projects:
       link: "http://gyph2.herokuapp.com/template1"
       about: "Create simple webpages using a webpage - Webception!!"
 
-    - title: "ShuffleRun"
-      image: "/images/shufflerun.png"
-      github: "https://github.com/srijanshetty/ShuffleRun"
-      about: "ShuffleRun is a music player which automatically changes the music track to match your running speed. Kind of scratched an itch that I had. Demoed it at Yahoo! HackU '13.'"
-
     - title: "Antaragni '14"
       image: "/images/antaragni.jpg"
       github: "http://github.com/srijanshetty/antaragni"
@@ -63,6 +58,16 @@ projects:
       link: "http://udghosh.srijanshetty.in"
       github: "http://github.com/srijanshetty/udghosh"
       about: "Website of Udghosh '13, IIT Kanpur's annual sports festival"
+
+    - title: "Nodesock"
+      image: "/images/p2p.png"
+      github: "https://github.com/srijanshetty/nodesock"
+      about: "A simple P2P file sharing program written in NodeJS."
+
+    - title: "ShuffleRun"
+      image: "/images/shufflerun.png"
+      github: "https://github.com/srijanshetty/ShuffleRun"
+      about: "ShuffleRun is a music player which automatically changes the music track to match your running speed. Kind of scratched an itch that I had. Demoed it at Yahoo! HackU '13.'"
 
     - title: "Flipbook"
       image: "/images/flipbook.png"
