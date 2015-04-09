@@ -16,6 +16,7 @@ Those 'Aha' talks:
 - [The UNIX Chainsaw - Gary Bernhardt](https://www.youtube.com/watch?v=ZQnyApKysg4)
 - [NoSQL - Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)
 - [Practical Funcitional Programming - Pick Two](https://www.youtube.com/watch?v=XcS-LdEBUkE)
+- [The Tar Pipe](http://blog.extracheese.org/2010/05/the-tar-pipe.html)
 - Any of Doughlas Crockford's Videos
 
 ## Music
