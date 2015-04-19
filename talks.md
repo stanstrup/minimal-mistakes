@@ -16,7 +16,7 @@ Over the years - sounds ominous, albeit years has been a very short period of ti
     - [Video](https://air.mozilla.org/mwos-2014-openvpn-mfa/)
     - [Slides](/talks/MWoS.pdf)
 - Opinion Word Expansion and Target Extraction through Double Propogation
-    - [Slides](/talks/cs365.pdf)
+    - [Slides](/talks/opinion_extraction.pdf)
 - Hindi Author Attribution
     - [Slides](/talks/author_attribution.pdf)
 
