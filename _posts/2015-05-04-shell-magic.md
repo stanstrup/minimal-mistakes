@@ -23,17 +23,17 @@ swear I saw the living daylights sucked out of his face. But every cloud has a s
 that we could not boot into X, we did have shell access. <br><br>
 Fortunately for us, **apt** maintains a log of all the operations it performs in */var/log/apt/term.log* and while
 it would have been easy to just manually make a list of programs that were uninstalled, it wasn't [half-assed
-](https://www.youtube.com/watch?v=sCZJblyT_XM) enough. Instead, I summoned the Gods of the shell to aid us in
+](https://www.youtube.com/watch?v=sCZJblyT_XM) enough. Instead, we summoned the Gods of the shell to aid us in
 this conquest.<br><br>
 We began by getting the relevant portion of the log file to another file (while it is possible to work with the
-same log file, I didn't want to go through the hassle of using **sudo** every time I had to access the log file.)
+same log file, we didn't want to go through the hassle of using **sudo** every time we had to access the log file.)
 
 {% highlight bash %}
 $ sudo tail -177 /var/log/apt/term.log > temp.log
 {% endhighlight %}
 
-I'll admit, I cheated a bit by using **177** and while it could have been programmed easily using **grep**, I was
-more excited about what I had to do next to really worry about making all of this reproducible.
+I'll admit, we cheated a bit by using **177** and while it could have been programmed easily using **grep**, we were
+more excited about what we had to do next to really worry about making all of this reproducible.
 
 {% highlight bash %}
 Log started: 2015-05-01  10:36:15
