@@ -48,25 +48,25 @@
 
             {% if post.github %}
             <span class="project-link">
-                <i class="fa fa-github fa-2x">
-                    <a href="{{ post.github }}" title="{{ post.title }}"></a>
-                </i>
+                <a href="{{ post.github }}" title="{{ post.title }}">
+                    <i class="fa fa-github fa-2x"></i>
+                </a>
             </span>
             {% endif %}
 
             {% if post.pdf %}
             <span class="project-link">
-                <i class="fa fa-file-pdf-o fa-2x">
-                    <a href="{{ post.pdf }}" title="{{ post.title }}"></a>
-                </i>
+                <a href="{{ post.pdf }}" title="{{ post.title }}">
+                    <i class="fa fa-file-pdf-o fa-2x"></i>
+                </a>
             </span>
             {% endif %}
 
             {% if post.link %}
             <span class="project-link">
-                <i class="fa fa-link fa-2x">
-                    <a href="{{ post.link }}" title="{{ post.title }}"></a>
-                </i>
+                <a href="{{ post.link }}" title="{{ post.title }}">
+                    <i class="fa fa-link fa-2x"></i>
+                </a>
             </span>
             {% endif %}
 
