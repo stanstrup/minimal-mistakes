@@ -12,7 +12,7 @@ Over the years - sounds ominous, albeit years has been a very short period of ti
 
 - Lightweight Indexing of Observation Data in Log-Structured Storage
     - [Slides](/talks/lightweight_indexing.pdf)
-- Multifactor Authentication in OpenVPN
+- Multi-factor Authentication in OpenVPN
     - [Video](https://air.mozilla.org/mwos-2014-openvpn-mfa/)
     - [Slides](/talks/MWoS.pdf)
 - Opinion Word Expansion and Target Extraction through Double Propogation
