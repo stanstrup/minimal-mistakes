@@ -27,7 +27,7 @@ I read RSS on Digg (for-it-matters-which-RSS-reader-you-use).
 Over the years I've found the following blogs to be very insightful and entertaining:
 <br/><br/>
 
-{% include digg-feeds.md %}
+{% include _digg-feeds.md %}
 
 ## Software
 I was introduced to the world of open source in college and I've never looked back.
