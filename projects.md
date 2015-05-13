@@ -67,6 +67,7 @@ projects:
     - title: "ShuffleRun"
       image: "/images/shufflerun.png"
       github: "https://github.com/srijanshetty/ShuffleRun"
+      link: "http://srijanshetty.in/shufflerun"
       about: "ShuffleRun is a music player which automatically changes the music track to match your running speed. Kind of scratched an itch that I had. Demoed it at Yahoo! HackU '13.'"
 
     - title: "Vox Populi Introduction"
