@@ -54,10 +54,26 @@
             </span>
             {% endif %}
 
+            {% if post.website %}
+            <span class="project-link">
+                <a href="{{ post.website }}" title="{{ post.title }}">
+                    <i class="fa fa-html5 fa-2x"></i>
+                </a>
+            </span>
+            {% endif %}
+
             {% if post.pdf %}
             <span class="project-link">
                 <a href="{{ post.pdf }}" title="{{ post.title }}">
                     <i class="fa fa-file-pdf-o fa-2x"></i>
+                </a>
+            </span>
+            {% endif %}
+
+            {% if post.wiki %}
+            <span class="project-link">
+                <a href="{{ post.wiki }}" title="{{ post.title }}">
+                    <i class="fa fa-file-word-o fa-2x"></i>
                 </a>
             </span>
             {% endif %}
