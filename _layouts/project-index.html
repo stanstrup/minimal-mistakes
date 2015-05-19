@@ -35,12 +35,12 @@
 <div id="index">
   {% for post in page.projects %}
 
-    <article>
+    <article class="project">
       <h3 class="project-title">{{ post.title }}</h3>
 
         {% if post.image %}
-            <a href="{{ post.link }}" title="{{ post.title }}">
-                <img class="project-image" src="{{ site.url }}{{post.image}}"/>
+            <a class="project-image" href="{{ post.link }}" title="{{ post.title }}">
+                <img src="{{ site.url }}{{post.image}}"/>
             </a>
         {% endif %}
 
