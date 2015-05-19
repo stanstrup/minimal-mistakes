@@ -28,18 +28,19 @@ projects:
     - title: "Hindi Author Attribution"
       image: "/images/author.png"
       github: "https://github.com/srijanshetty/author-attribution"
+      website: "https://srijanshetty.in/author-attribution"
       about: "Supervised classification to achieving F-scores in the range of 90-97% for the following prominent hindi authors: Premchand, Tagore, Dharamvir Bharati, Vibhuti Narayan and Sarat chand."
 
     - title: "OARS"
       image: "/images/oars.jpg"
       github: "http://github.com/navya/oars"
       website: "http://navya.github.io/oars"
-      about: "An angular based 'modern' frontend for - read to bypass - the Institute Course Search"
+      about: "An angular based 'modern' frontend for - read to bypass - the Institute Course Search, a dinosaur which amazingly has survived the 21st century."
 
     - title: "GYPH"
       image: "/images/gyph.jpg"
       website: "http://gyph2.herokuapp.com/template1"
-      about: "Create simple webpages using a webpage - Webception!!"
+      about: "Create simple webpages using a webapp - Webception!!"
 
     - title: "Antaragni '14"
       image: "/images/antaragni.jpg"
