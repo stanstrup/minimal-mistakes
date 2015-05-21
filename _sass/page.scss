@@ -243,15 +243,16 @@ $button-size: 1.5rem;
 
 	}
 
+    h3 {
+        margin: 0;
+        margin-top: 10px;
+        @include font-rem(28);
+        border-bottom: 1px solid lighten($black,70);
+
+    }
+
     .project {
         padding-top: 10px;
-        h3 {
-            margin: 0;
-            margin-top: 10px;
-            @include font-rem(28);
-            border-bottom: 1px solid lighten($black,70);
-
-        }
 
         .project-title {
             @media #{$micro} {
