@@ -19,6 +19,9 @@ Those 'Aha' talks:
 - [The Tar Pipe](http://blog.extracheese.org/2010/05/the-tar-pipe.html)
 - Any of Doughlas Crockford's Videos
 
+## Movies
+[Trakt.tv](http://trakt.tv/users/srijanshetty)
+
 ## Music
 [LastFM](www.last.fm/user/srijanshetty/tracks)
 
