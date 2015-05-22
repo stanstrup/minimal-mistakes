@@ -10,15 +10,17 @@ comments: true
 
 Over the years - sounds ominous, albeit years has been a very short period of time - I've given a couple - by couple, I mean just that - of talks:
 
-- Lightweight Indexing of Observation Data in Log-Structured Storage
-    - [Slides](/talks/lightweight_indexing.pdf)
-- Multi-factor Authentication in OpenVPN
-    - [Video](https://air.mozilla.org/mwos-2014-openvpn-mfa/)
-    - [Slides](/talks/MWoS.pdf)
-- Opinion Word Expansion and Target Extraction through Double Propogation
-    - [Slides](/talks/opinion_extraction.pdf)
-- Hindi Author Attribution
-    - [Slides](/talks/author_attribution.pdf)
+- **Project presentations**
+    - Multi-factor Authentication in OpenVPN, *Harshvardhan Sharma, Shivanshu Agrawal, Srijan R Shety*
+        - [Video](https://air.mozilla.org/mwos-2014-openvpn-mfa/)
+        - [Slides](/talks/MWoS.pdf)
+    - Hindi Author Attribution, *Dhruv Anand, Srijan R Shetty*
+        - [Slides](/talks/author_attribution.pdf)
+- **Paper Presentations**
+    - Lightweight Indexing of Observation Data in Log-Structured Storage, *Sheng Wang, David Maier, Beng Chin Ooi*
+        - [Slides](/talks/lightweight_indexing.pdf)
+    - Opinion Word Expansion and Target Extraction through Double Propagation, *Guang Oiu, Bing Liu, Jiajun Bu, Chun Chen*
+        - [Slides](/talks/opinion_extraction.pdf)
 
 <figure>
     <a href="https://imgs.xkcd.com/comics/ted_talk.png">
