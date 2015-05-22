@@ -47,18 +47,26 @@ module.exports = function(grunt) {
         }]
       }
     },
+    'gh-pages': {
+        options: {
+            base: '_site',
+            repo: 'git@github.com:srijanshetty/srijanshetty.github.io.git',
+            branch: 'master'
+        },
+        src: ['**']
+    },
     watch: {
-      js: {
-        files: [
-          '<%= jshint.all %>'
-        ],
-        tasks: ['jshint','uglify']
-      }
+        js: {
+            files: [
+                '<%= jshint.all %>'
+            ],
+            tasks: ['jshint','uglify']
+        }
     },
     clean: {
-      dist: [
-        'assets/js/scripts.min.js'
-      ]
+        dist: [
+            'assets/js/scripts.min.js'
+        ]
     }
   });
 
@@ -69,20 +77,24 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
+  grunt.loadNpmTasks('grunt-gh-pages');
 
   // Register tasks
   grunt.registerTask('default', [
-    'clean',
-    'uglify',
-    'imagemin',
-    'svgmin'
+      'clean',
+      'uglify',
+      'imagemin',
+      'svgmin',
   ]);
   grunt.registerTask('dev', [
-    'watch'
+      'watch'
   ]);
   grunt.registerTask('images', [
-    'imagemin',
-    'svgmin'
+      'imagemin',
+      'svgmin'
+  ]);
+  grunt.registerTask('deploy', [
+      'gh-pages'
   ]);
 
 };
