@@ -21,6 +21,12 @@ Over the years - sounds ominous, albeit years has been a very short period of ti
         - [Slides](/talks/lightweight_indexing.pdf)
     - Opinion Word Expansion and Target Extraction through Double Propagation, *Guang Oiu, Bing Liu, Jiajun Bu, Chun Chen*
         - [Slides](/talks/opinion_extraction.pdf)
+- **Humanities**
+    - Elements of Visual Representation
+        - [Blog](/writeup/art106-elements-of-visual-representation/)
+    - Social Constructionism
+        - [Blog](/social-constructionism)
+
 
 <figure>
     <a href="https://imgs.xkcd.com/comics/ted_talk.png">
