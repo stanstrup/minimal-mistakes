@@ -45,18 +45,18 @@ projects:
     - title: "Antaragni '14"
       image: "/images/antaragni.jpg"
       github: "http://github.com/srijanshetty/antaragni"
-      website: "http://antaragni.srijanshetty.in"
+      website: "http://srijanshetty.in/antaragni"
       about: "Website of Antaragni '14, IIT Kanpur's annual cultural festival"
 
     - title: "Junoon '14"
-      website: "http://junoon.srijanshetty.in"
+      website: "http://srijanshetty.in/junoon"
       github: "http://github.com/srijanshetty/junoon"
       image: "/images/junoon.jpg"
       about: "Website of Junoon - The biggest eastern rock festival in northern India"
 
     - title: "Udghosh '13"
       image: "/images/udghosh.jpg"
-      website: "http://udghosh.srijanshetty.in"
+      website: "http://srijanshetty.in/udghosh"
       github: "http://github.com/srijanshetty/udghosh"
       about: "Website of Udghosh '13, IIT Kanpur's annual sports festival"
 
