@@ -6,6 +6,7 @@ categories: travelogue
 excerpt: "Such nights are to be cherished and such friends are to rejoiced"
 tags: [travelogue, indore, friends]
 date: 2014-12-19T22:04:16+05:30
+comments: true
 ---
 
 The night of 17th December 2014 is something that I'll never forget. I'm not sure whether it was the potent alcohol or the nature of our friendship, but the three and half years since our last meeting seemed inconsequential.

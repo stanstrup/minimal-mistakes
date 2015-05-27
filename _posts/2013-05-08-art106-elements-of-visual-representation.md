@@ -8,6 +8,7 @@ tags: ['course', 'art', 'writeups']
 image:
   feature:
 date: 2013-05-08
+comments: true
 ---
 
 I've always wanted to study psychology and after a full three semesters in IIT Kanpur, I was finally blessed (read allotted) with an opportunity.  But the fates had something else in store for me and a certain turn of events - which may or may not have involved a very boring first class and the utterance of the sentence "drop the course" by a certain professor - I landed up with **ART106: Elements of Visual Representation.** <br><br>

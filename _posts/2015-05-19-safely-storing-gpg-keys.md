@@ -8,6 +8,7 @@ tags: [blackbox, encryption, security, GPG]
 image:
   feature:
 date: Sat May 23 16:59:33 IST 2015
+comments: true
 ---
 
 > TL;DR: The next few paragraphs are mindless rants on the chicken-egg safety problem,
