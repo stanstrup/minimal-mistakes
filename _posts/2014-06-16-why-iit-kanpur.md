@@ -3,7 +3,7 @@ layout: post
 title: "Why IIT Kanpur?"
 modified: Wed May 27 11:38:03 IST 2015
 categories: writeup
-excerpt:
+excerpt: "On the merits of IIT Kanpur"
 tags: [iitk, writeup, iit, jee, counselling, why]
 image:
     feature: iitk.jpg
