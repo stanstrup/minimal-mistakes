@@ -13,6 +13,7 @@ I've only recently started tracking the books which I've read or I intend to rea
 ## Talks
 Those 'Aha' talks:
 
+- [Greg Wilson - What We Actually Know About Software Development, and Why We Believe It's True](https://vimeo.com/9270320)
 - [The UNIX Chainsaw - Gary Bernhardt](https://www.youtube.com/watch?v=ZQnyApKysg4)
 - [NoSQL - Martin Fowler](https://www.youtube.com/watch?v=qI_g07C_Q5I)
 - [Practical Funcitional Programming - Pick Two](https://www.youtube.com/watch?v=XcS-LdEBUkE)
