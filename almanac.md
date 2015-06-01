@@ -28,10 +28,6 @@ Those 'Aha' talks:
 
 ## RSS
 I read RSS on Digg (for-it-matters-which-RSS-reader-you-use).
-Over the years I've found the following blogs to be very insightful and entertaining:
-<br/><br/>
-
-{% include _digg-feeds.md %}
 
 ## Software
 I was introduced to the world of open source in college and I've never looked back.
@@ -53,6 +49,7 @@ I'm an obsessive compulsive, and I've dedicated my life to sorting my <strike>sh
 - git: as Torvalds says *source control as the way it should be*.
 - [git-annex](https://git-annex.branchable.com/): for everything else.
 - [ledger](http://www.ledger-cli.org/): powerful, double-entry accounting system.
+- [memo](http://www.getmemo.org/): commandline note-taking.
 
 **Miscellaneous**<br/><br/>
 An assorted list of other utilities that come in handy.
@@ -60,5 +57,3 @@ An assorted list of other utilities that come in handy.
 - [btsync](http://www.getsync.com/download): BitTorrent Sync.
 - [vagrant](https://vagrantup.com): Reproducible dev environments.
 - [zathura](https://pwmt.org/projects/zathura/): PDF Viewer.
-
-
