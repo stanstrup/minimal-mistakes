@@ -1,23 +1,34 @@
-# Minimal Mistakes
+# My Personal Website
 
-**[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** is a two column responsive Jekyll theme perfect for powering your GitHub hosted blog. 
+This is the raw version of my website which is hosted [here](http://srijanshetty.in). The website is powered by [Minimal Mistakes Jekyll Theme](https://github.com/mmistakes/minimal-mistakes).
 
-## Minimal Mistakes is all about:
+## Instructions
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
+**One time install **
+    $ bundle; npm install
 
-![screenshot of Minimal Mistakes theme](http://mmistakes.github.io/minimal-mistakes/images/mm-theme-post-600.jpg)
+**Creating New Posts**
+    $ octopress new post "Title"
 
-See a [live version of Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/) hosted on GitHub.
+**Creating New Pages**
+    $ octopress new page "Title"
 
-## Getting Started
+**Deploying to Server **
+    $ npm run deploy
 
-Minimal Mistakes takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
+## Dependencies
 
-To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/minimal-mistakes/theme-setup/) for more information.
+- ruby
+    - octopress
+    - jekyll
+    - bundler
+- NPM
+    - grunt
+    - grunt-contrib-clean
+    - grunt-contrib-jshint
+    - grunt-contrib-uglify
+    - grunt-contrib-watch
+    - grunt-contrib-imagemin
+    - grunt-svgmin
+    - grunt-gh-pages
+
