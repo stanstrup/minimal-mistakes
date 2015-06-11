@@ -13,20 +13,23 @@ I was introduced to the world of open source in college and I've never looked ba
 Here's a list of some tools I can't live without:
 
 - [antigen-hs](https://github.com/srijanshetty/antigen-hs): as git-submodules are a nightmare.
+- [pushbullet](https://pushbullet.com): universal copy paste across devices, need I say more?
 - [tmux](https://github.com/srijanshetty/vcsh-tmux): terminal multiplexer.
 - [vcsh and mr](/technical/vcsh-mr-dotfiles-nirvana/): dotfiles nirvana.
 - [vim](https://github.com/srijanshetty/vim-plug/): cause every other editor feels half baked.
-- [zsh](https://github.com/srijanshetty/zsh)
+- [zsh](https://github.com/srijanshetty/zsh): Instantly Awesome ZSH using [Prezto](https://github.com/sorin-ionescu/prezto).
 
 **Media organization**<br/><br/>
 I'm an obsessive compulsive, and I've dedicated my life to sorting my <strike>shit</strike>  media.
 
 - [anki](http://ankisrs.net/): powerful, intelligent flashcards.
 - [beets](beets.readthedocs.org): the music geek's media organizer.
-- [carousel](https://carousel.dropbox.com/): *Dropbox's* offering packs some punch.
+- [boom](http://zachholman.com/boom/): bookmarks on the command line.
 - [geeknote](http://www.geeknote.me/): cross-platform command line *Evernote* client.
 - git: as Torvalds says *source control as the way it should be*.
 - [git-annex](https://git-annex.branchable.com/): for everything else.
+- [google photos](https://photos.google.com): Google scored a homerun with this one.
+- [hypothes.is](https://hypothes.is): annotate the web
 - [ledger](http://www.ledger-cli.org/): powerful, double-entry accounting system.
 - [memo](http://www.getmemo.org/): commandline note-taking.
 
@@ -42,7 +45,7 @@ An assorted list of other utilities that come in handy.
 Until I make a better section, [Trakt.tv](http://trakt.tv/users/srijanshetty) and [LastFM](http://www.last.fm/user/srijanshetty/tracks).
 
 ## Books
-I've only recently started tracking the books which I've read or I intend to read; and through this endeavour, I've come to the arguably depressing conclusion that I don't read as much I'd like to. I've decided not to burden myself with realization and find solace in the fact that I consume a lot of blogs daily.<br><br>
+I've only recently started tracking the books on [goodreads](https://www.goodreads.com/srijanshetty) which I've read or I intend to read; and through this endeavour, I've come to the arguably depressing conclusion that I don't read as much I'd like to. I've decided not to burden myself with realization and find solace in the fact that I consume a lot of blogs daily.<br><br>
 **RSS**<br>
 I read RSS on [Digg](digg.com/reader) (for-it-matters-which-RSS-reader-you-use).<br><br>
 **Hypothes.is**<br>
