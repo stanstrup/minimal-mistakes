@@ -14,6 +14,7 @@ Here's a list of some tools I can't live without:
 
 - [antigen-hs](https://github.com/srijanshetty/antigen-hs): as git-submodules are a nightmare.
 - [pushbullet](https://pushbullet.com): universal copy paste across devices, need I say more?
+- [fzf](https://github.com/junegunn/fzf): generic commandline fuzzyfinder.
 - [tmux](https://github.com/srijanshetty/vcsh-tmux): terminal multiplexer.
 - [vcsh and mr](/technical/vcsh-mr-dotfiles-nirvana/): dotfiles nirvana.
 - [vim](https://github.com/srijanshetty/vim-plug/): cause every other editor feels half baked.
@@ -32,6 +33,7 @@ I'm an obsessive compulsive, and I've dedicated my life to sorting my <strike>sh
 - [hypothes.is](https://hypothes.is): annotate the web
 - [ledger](http://www.ledger-cli.org/): powerful, double-entry accounting system.
 - [memo](http://www.getmemo.org/): commandline note-taking.
+- [snips](https://github.com/srijanshetty/snips): commandline snippets.
 
 **Miscellaneous**<br/><br/>
 An assorted list of other utilities that come in handy.
