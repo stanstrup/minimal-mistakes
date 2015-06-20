@@ -270,23 +270,6 @@ $button-size: 1.5rem;
     }
 
     .project {
-        padding-top: 10px;
-
-        .project-title {
-            @media #{$micro} {
-                text-align: center;
-            }
-
-            @media #{$medium} {
-                text-align: left;
-            }
-
-            color: #1495ce;
-            margin-bottom: 8px;
-            padding-bottom: .2em;
-            clear: both;
-        }
-
         .project-image {
             @media #{$micro} {
                 display:none;
@@ -294,25 +277,34 @@ $button-size: 1.5rem;
 
             @media #{$medium} {
                 display: block;
-                float: left;
-                width: 50%;
-                margin-bottom: 1%;
+                width: 100%;
+                padding: 5%;
+                margin: 5%;
+            }
+
+            img {
+                width: 90%;
             }
         }
 
         .project-content {
-            margin-top: 2%;
-            margin-bottom: 2%;
+            padding: 3%;
             text-align: center;
+            vertical-align: center;
 
-            @media #{$large}, #{$x-large} {
-                margin-left: 55%;
+            .project-title {
+                font-size: 20px;
+                margin: 0;
+                margin-bottom: 2%;
+                color: #1495ce;
+                border-bottom: 1px solid lightgrey;
             }
-        }
 
-        .project-link {
-            margin-left: 2%;
-            margin-bottom: 2%;
+            .project-link {
+                margin-left: 2%;
+                margin-top: 1em;
+            }
+
         }
     }
 
