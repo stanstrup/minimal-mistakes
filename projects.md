@@ -83,11 +83,5 @@ projects:
       website: "http://srijanshetty.in/flipbook-homepage"
       about: "Got my hands dirty with HTML, CSS and JS for the first time."
 
-    - title: "Antaragni All Team Meet"
-      image: "/images/antaragni-logo.jpg"
-      github: "https://github.com/srijanshetty/antaragni-atm"
-      website: "http://srijanshetty.in/antaragni-atm"
-      about: "All Team Meet presentation of Antaragni '14 - the annual cultural festival of IIT Kanpur"
-
 ---
 
