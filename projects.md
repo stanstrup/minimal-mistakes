@@ -37,6 +37,11 @@ projects:
       website: "https://srijanshetty.in/author-attribution"
       about: "Supervised classification to achieving F-scores in the range of 90-97% for the following prominent hindi authors: Premchand, Tagore, Dharamvir Bharati, Vibhuti Narayan and Sarat chand."
 
+    - title: "Vani"
+      link: "https://students.iitk.ac.in/"
+      image: "/images/vani.png"
+      about: "VANI - Voicing, Archiving and Networking Information, was an initiative to have a common platform for IIT Kanpur for the dissemination of information through wikis, forums and search."
+
     - title: "OARS"
       link: "http://navya.github.io/oars"
       image: "/images/oars.jpg"
