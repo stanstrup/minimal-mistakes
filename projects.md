@@ -8,7 +8,7 @@ projects:
       github: "https://github.com/srijanshetty/elections"
       image: "/images/elections.png"
       github: "https://github.com/srijanshetty/elections"
-      about: "VS-3 is a flexible robust offline voting system which was used for Students' Gymkhana General Elections, IIT Kanpur. It's been battle-tested on multiple election scenarios."
+      about: "VS-3 is a flexible robust offline voting system which was used for Students' Gymkhana General Elections, IIT Kanpur and HEC elections of many hostels of IITK. It's been battle-tested on multiple election scenarios."
 
     - title: "Multifactor Authentication in OpenVPN"
       link: "https://wiki.mozilla.org/Security/Mentorships/MWoS/2014/OpenVPN_MFA"
@@ -23,12 +23,14 @@ projects:
       image: "/images/javascript.png"
       github: "https://github.com/srijanshetty/javascript-compiler"
       about: "A good parts javascript compiler for MIPS which compiles most ECMAScript 5.1 features (first class functions, lambdas etc) with strict type checking and type annotations."
+      main: true
 
     - title: "Index Structures"
       link: "https://github.com/srijanshetty/index-structures"
       image: "/images/indexing.png"
       github: "https://github.com/srijanshetty/index-structures"
       about: "Index structures implemented as a part of <i>CS618: Searching and Indexing in Databases</i>. Implemented structures include: <b>B+-tree, QuadTree, VP-Tree, R-Tree</b>"
+      main: true
 
     - title: "Hindi Author Attribution"
       link: "https://srijanshetty.in/author-attribution"
@@ -36,11 +38,27 @@ projects:
       github: "https://github.com/srijanshetty/author-attribution"
       website: "https://srijanshetty.in/author-attribution"
       about: "Supervised classification to achieving F-scores in the range of 90-97% for the following prominent hindi authors: Premchand, Tagore, Dharamvir Bharati, Vibhuti Narayan and Sarat chand."
+      main: true
 
     - title: "Vani"
       link: "https://students.iitk.ac.in/"
       image: "/images/vani.png"
       about: "VANI - Voicing, Archiving and Networking Information, was an initiative to have a common platform for IIT Kanpur for the dissemination of information through wikis, forums and search."
+      main: true
+
+    - title: "8-bit computer on FPGA"
+      link: "https://github.com/srijanshetty/8-bit-fpga-computer"
+      image: "/images/fpga.jpg"
+      github: "https://github.com/srijanshetty/8-bit-fpga-computer"
+      about: "Designed and programmed a simple Instruction set Architecture (ISA) for a 8-bit General Purpose Computer with a load-store architecture on Xilinx Spartan 3 FPGA using System Verilog."
+      main: true
+
+    - title: "NachOS"
+      link: "https://github.com/srijanshetty/nachos"
+      image: "/images/nachos.png"
+      github: "https://github.com/srijanshetty/nachos"
+      about: "Implemented syscalls, process scheduling and page replacement algorithms in NachOS."
+      main: true
 
     - title: "OARS"
       link: "http://navya.github.io/oars"
