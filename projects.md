@@ -12,7 +12,7 @@ projects:
       image: "/images/MWoS.png"
       github: "https://github.com/mozilla/openvpn"
       pdf: "/talks/mwos.pdf"
-      wiki: "https://wiki.mozilla.org/Security/Mentorships/MWoS/2014/OpenVPN_MFA"
+      website: "https://wiki.mozilla.org/Security/Mentorships/MWoS/2014/OpenVPN_MFA"
       about: "The objective of this project was to implement native multifactor authentication in OpenVPN and session resumption support for the same"
 
     - title: "Javascript Compiler"
