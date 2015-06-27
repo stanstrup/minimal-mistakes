@@ -50,7 +50,7 @@ projects:
       link: "https://github.com/srijanshetty/8-bit-fpga-computer"
       image: "/images/fpga.jpg"
       github: "https://github.com/srijanshetty/8-bit-fpga-computer"
-      about: "Designed and programmed a simple Instruction set Architecture (ISA) for a 8-bit General Purpose Computer with a load-store architecture on Xilinx Spartan 3 FPGA using System Verilog."
+      about: "Designed and programmed a simple Instruction set Architecture (ISA) for a 8-bit General Purpose Computer with a load-store architecture on Xilinx Spartan 3 FPGA using System Verilog. Demonstrated recursion, looping and conditionals on the Computer by using a simple assembly language."
       main: true
 
     - title: "NachOS"
