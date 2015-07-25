@@ -7,7 +7,7 @@ tags: ["academics", "graduation", "iit kanpur", "computer"]
 comments: true
 ---
 
-I'm a senior undergraduate student at the <a href="http://cse.iitk.ac.in">Department of Computer Science and Engineering</a>, <a href="www.iitk.ac.in">Indian Institute of Technology Kanpur.</a>
+I did my Bachelor's from the <a href="http://cse.iitk.ac.in">Department of Computer Science and Engineering</a>, <a href="www.iitk.ac.in">Indian Institute of Technology Kanpur.</a>
 
 Academic Background
 -------------------
