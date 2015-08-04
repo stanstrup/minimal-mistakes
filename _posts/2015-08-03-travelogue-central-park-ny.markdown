@@ -11,15 +11,15 @@ comments: true
 date: 2015-08-03T22:46:40-04:00
 ---
 
-It's the search of greener pastures,
-The fear of these barren lands,
-The tireless flow of currents,
+It's the search of greener pastures,<br>
+The fear of these barren lands,<br>
+The tireless flow of currents,<br>
 The fear of being left ashore.<br/><br/>
-The pursuit of infinity,
-The fear of being average.
-The search of Neverland,
+The pursuit of infinity,<br>
+The fear of being average.<br>
+The search of Neverland,<br>
 Lest you remain anchored.<br/><br/>
-Fuels an eclectic passion,
-A desire to transcend,
-To nourish, to create,
-To leave, and to move.
+Fuels an eclectic passion,<br>
+A desire to transcend,<br>
+To nourish, to create,<br>
+To leave, and to move.<br>
