@@ -3,11 +3,17 @@ layout: project-index
 title: Hack Love
 excerpt: "A List of Things I can boast about"
 projects:
+    - title: "Kaggle Bike Sharing Demand"
+      website: "https://www.kaggle.com/c/bike-sharing-demand/leaderboard"
+      github: "https://github.com/srijanshetty/bike-share-kaggle"
+      image: "/images/bike-share.png"
+      pdf: "/talks/bike_share.pdf"
+      about: "Ranked 53rd in Kaggle's Bike Sharing Demand Machine Learning Competition"
+
     - title: "VS-3"
       link: "https://github.com/srijanshetty/elections"
       github: "https://github.com/srijanshetty/elections"
       image: "/images/elections.png"
-      github: "https://github.com/srijanshetty/elections"
       about: "VS-3 is a flexible robust offline voting system which was used for Students' Gymkhana General Elections, IIT Kanpur and HEC elections of many hostels of IITK. It's been battle-tested on multiple election scenarios."
 
     - title: "Multifactor Authentication in OpenVPN"

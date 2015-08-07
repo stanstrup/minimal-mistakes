@@ -11,9 +11,11 @@ comments: true
 Over the years - sounds ominous, albeit years has been a very short period of time - I've given a couple - by couple, I mean just that - of talks:
 
 - **Project presentations**
-    - Multi-factor Authentication in OpenVPN, *Harshvardhan Sharma, Shivanshu Agrawal, Srijan R Shety*
+    - Multi-factor Authentication in OpenVPN, *Harshvardhan Sharma, Shivanshu Agrawal, Srijan R Shetty*
         - [Video](https://air.mozilla.org/mwos-2014-openvpn-mfa/)
         - [Slides](/talks/MWoS.pdf)
+    - Kaggle Bike Sharing Demand, *Shouvik Sachdeva, Pratik Somani, Sai Krishna, Srijan R Shetty*
+        - [Slides](/talks/bike_share.pdf)
     - Hindi Author Attribution, *Dhruv Anand, Srijan R Shetty*
         - [Slides](/talks/author_attribution.pdf)
 - **Paper Presentations**
