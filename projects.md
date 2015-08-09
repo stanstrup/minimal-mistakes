@@ -3,6 +3,12 @@ layout: project-index
 title: Hack Love
 excerpt: "A List of Things I can boast about"
 projects:
+    - title: "Data Sensitive Hashing"
+      github: "https://github.com/srijanshetty/data-sensitive-hashing"
+      image: "/images/dsh.png"
+      pdf: "http://www.comp.nus.edu.sg/~ooibc/dsh.pdf"
+      about: "Extended data sensitive hashing with multiprobing and entropy mechanisms of locality sensitive hashing; and analysed relative performances of the different algorithms."
+
     - title: "Kaggle Bike Sharing Demand"
       website: "https://www.kaggle.com/c/bike-sharing-demand/leaderboard"
       github: "https://github.com/srijanshetty/bike-share-kaggle"
