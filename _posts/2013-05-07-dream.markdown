@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Dream"
+modified:
+categories: poems
+excerpt: "There and lessons to learn and fulfil other's dreams"
+tags: [dream, balcony]
+image:
+  feature:
+comments: true
+date: 2013-05-07T23:36:03-04:00
+---
+
+My mind was distraught,<br/>
+For I ought not,<br/>
+Sit on a balcony and dream,<br/><br/>
+Though it wasn't right,<br/>
+This beautiful sight,<br/>
+Was more than a desperate dream.<br/><br/>
+But I had to forget,<br/>
+For time wouldn't let,<br/>
+A shipwrecked traveller dream.<br/><br/>
+But I had to return,<br/>
+Since I had lessons to learn,<br/>
+And fulfil other's dreams.<br/><br/>
