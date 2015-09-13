@@ -5,7 +5,6 @@ locale:           en_US
 url:              //srijanshetty.in
 # url:               http://localhost:4000
 
-
 # Jekyll configuration
 
 permalink:   /:categories/:title/
@@ -48,7 +47,7 @@ owner:
   # soundcloud: srijanshetty
   # youtube: srijanshetty
   # pinterest: srijanshetty
-  # stackoverflow: #http://stackoverflow.com/users/123456/username
+  # stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   # foursquare: #username
   # steam: #username
   # dribbble: #username
@@ -56,6 +55,8 @@ owner:
   # xing: #username
   # soundcloud: #username
   # flickr: #username
+  # flickr: #username
+  # codepen: #username
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

@@ -4,9 +4,6 @@ This is the raw version of my website which is hosted [here](http://srijanshetty
 
 ## Instructions
 
-**One time install **
-    $ bundle; npm install
-
 **Creating New Posts**
     $ octopress new post "Title"
 
@@ -31,4 +28,3 @@ This is the raw version of my website which is hosted [here](http://srijanshetty
     - grunt-contrib-imagemin
     - grunt-svgmin
     - grunt-gh-pages
-
