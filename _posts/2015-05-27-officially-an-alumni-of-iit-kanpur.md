@@ -2,7 +2,7 @@
 layout: post
 title: "Officially an Alumni of IIT Kanpur"
 modified: Sat May 30 09:54:14 IST 2015
-categories: writeup
+categories: write-ups
 excerpt: Srijan R Shetty (IITK/B.Tech./CSE/2015)
 tags: [writeup, iitk, alumni, advice]
 date: 2015-05-30T09:51:19+05:30

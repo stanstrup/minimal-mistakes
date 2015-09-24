@@ -2,7 +2,7 @@
 layout: post
 title: "Sometimes"
 modified:
-categories: travelogue
+categories: poems
 excerpt: "A few chapters from my life"
 tags: [travelogue, sometimes, love, faith, expecations]
 image:

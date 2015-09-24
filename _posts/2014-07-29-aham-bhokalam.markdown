@@ -2,7 +2,7 @@
 layout: post
 title: "Aham Bhokalam"
 modified:
-categories: writeup
+categories: write-ups
 excerpt: "Aham Bhokalam - Unleash the fire within"
 tags: [antaragni, write-up, antaragni14, aham, bhokalam]
 image:

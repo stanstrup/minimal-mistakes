@@ -2,7 +2,7 @@
 layout: post
 title: "ART106 - Elements of Visual Representation"
 modified: Thu May 21 22:49:46 IST 2015
-categories: writeup
+categories: write-ups
 excerpt: "Understanding the intricasies of art"
 tags: ['course', 'art', 'writeups']
 image:

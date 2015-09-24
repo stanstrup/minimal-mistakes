@@ -2,7 +2,7 @@
 layout: post
 title: "Mastering Custom Site Search in Chrome"
 modified:
-categories: tips
+categories: hacks
 excerpt: "The title says it all"
 tags: [tips, technical, chrome, search, custom site, google, address bar]
 image:

@@ -2,7 +2,7 @@
 layout: post
 title: "Computer Science and Engineering, IIT Kanpur"
 modified: Thu Jun 11 16:01:43 IST 2015
-categories: writeup
+categories: write-ups
 excerpt: "A guide to CSE at IIT Kanpur"
 tags: [iitk, jee, counselling, thatsiitk]
 image:
