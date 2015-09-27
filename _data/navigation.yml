@@ -9,6 +9,9 @@
 - title: Blog
   url: /posts/
 
+- title: Categories
+  url: /posts/category-wise.html
+
 - title: Projects
   url: /projects.html
 
