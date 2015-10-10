@@ -6,7 +6,7 @@ categories: poems
 excerpt: "Dead men seeking salvation"
 tags: [ poems, wastelands, dead men, salvaiton ]
 image:
-  feature:
+  feature: marvante.jpg
 comments: true
 date: 2015-10-10T18:43:32+05:30
 ---
