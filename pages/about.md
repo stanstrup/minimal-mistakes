@@ -4,10 +4,10 @@ title: About Me
 tags: [about, Srijan R. Shetty, ]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: true
-image:
-  feature: marvante.jpg
-  credit: Srijan R Shetty, Marvante Beach
-  creditlink: http://srijanshetty.in
+#image:
+  #feature: # image here
+  #credit:  # names here
+  #creditlink: # URL here
 ---
 
 I'm Srijan R. Shetty, a senior undergraduate at the <a href="http://cse.iitk.ac.in">Department of Computer
