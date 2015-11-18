@@ -4,6 +4,7 @@ title: Sample Post
 excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 modified: 2013-05-31
 tags: [intro, beginner, jekyll, tutorial]
+categories: sample
 comments: true
 image:
   feature: sample-image-5.jpg
@@ -270,3 +271,12 @@ And you'll get something that looks like this:
 	<img src="http://placehold.it/600x300.jpg">
 	<figcaption>Three images.</figcaption>
 </figure>
+
+
+## Embedded video
+
+<iframe width="854" height="510" src="https://www.youtube.com/embed/niShO0BIA6Q" frameborder="0" allowfullscreen></iframe>
+
+## Embedded map
+
+<iframe src="https://www.google.com/maps/d/embed?mid=zvNcxTZhLouM.kio--AUrkzfo" width="640" height="480"></iframe>
