@@ -2,8 +2,8 @@
 
 title:            Stanstrup
 locale:           en_US
-#url:              //stanstrup.github.io
-url:               http://192.168.2.15:4000
+url:              http://stanstrup.github.io
+#url:               http://192.168.2.15:4000
 
 # Jekyll configuration
 
