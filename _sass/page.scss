@@ -240,6 +240,7 @@ $button-size: 1.5rem;
 		}
 		@media #{$x-large} {
 			@include grid(12,4.5);
+			@include prefix(12,3); // adds 3 columns of blank space to the left
 		}
 	}
 }
@@ -258,6 +259,7 @@ $button-size: 1.5rem;
 	}
 	@media #{$x-large} {
 		@include grid(12,4.5);
+		@include prefix(12,3); // adds 3 columns of blank space to the left
 
 	}
 
