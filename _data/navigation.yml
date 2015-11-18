@@ -1,25 +1,20 @@
 # Site navigation links
 
-- title: About
-  url: /pages/about.html
-
-- title: Academics
-  url: /pages/academics.html
-
-- title: Blog
-  url: /posts/
-
-- title: Categories
+- title: All content by category
   url: /posts/category-wise.html
 
-- title: Projects
-  url: /pages/projects.html
+- title: All content by date
+  url: /posts/
 
-- title: Talks
-  url: /pages/talks.html
+#- title: Projects
+#  url: /pages/projects.html
 
-- title: Almanac
-  url: /pages/almanac.html
+- title: Presentations
+  url: /pages/presentations.html
 
+- title: About
+  url: /pages/about.html
+  
 - title: CV
-  url: /pages/cv.html
+  url: /pages/CV.html
+  

@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Lost Echoes
+title:            Stanstrup
 locale:           en_US
-#url:              //srijanshetty.in
+#url:              //stanstrup.github.io
 url:               http://192.168.2.15:4000
 
 # Jekyll configuration
@@ -25,29 +25,29 @@ kramdown:
 
 # Site owner
 owner:
-  name: Srijan R. Shetty
-  avatar: bio-photo.jpg
-  bio: "Eccentric, Scribbler, Hacker"
-  email: srijan.shetty+code@gmail.com
-  disqus-shortname: srijanshetty
-  github: srijanshetty
-  facebook: srijanrshetty
-  twitter: srijanshetty
+  name: Jan Stanstrup
+  avatar: profile_jan.jpg
+  bio: ""
+  email: stanstrup@gmail.com
+  disqus-shortname: janstanstrup
+  github: stanstrup
+  facebook: jan.stanstrup
+  twitter: stanstrup
   google:
-    plus: SrijanRShetty
-    analytics: UA-54744194-1
+    plus: 
+    analytics: UA-70357909-1
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  linkedin: srijanshetty
-  instagram: srijanshetty
-  # lastfm: srijanshetty
-  # tumblr: srijanshetty
-  # soundcloud: srijanshetty
-  # youtube: srijanshetty
-  # pinterest: srijanshetty
-  # stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: jan-stanstrup
+  # instagram: 
+  # lastfm: 
+  # tumblr: 
+  # soundcloud: 
+  # youtube: 
+  # pinterest: 
+  stackoverflow: 3648338/jan-stanstrup
   # foursquare: #username
   # steam: #username
   # dribbble: #username
