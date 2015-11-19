@@ -1,0 +1,19 @@
+div.nicetable tr:nth-child(even) {
+ background: #f8f8f8;
+}
+
+div.nicetable table {
+ display: block;
+ width:100%;
+ border: 0px
+}
+
+div.nicetable table thead th {
+font-weight: bold;
+background: #d3d3d3;
+text-align: left;
+}
+
+div.nicetable tr, div.nicetable th,div.nicetable td {
+padding: 0.4em;
+}
