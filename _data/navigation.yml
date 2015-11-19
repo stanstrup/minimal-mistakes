@@ -1,20 +1,21 @@
 # Site navigation links
 
-- title: All content by category
+- title: Tutorials
   url: /posts/category-wise.html
 
-- title: All content by date
-  url: /posts/
+#- title: Content by date
+#  url: /posts/
 
 #- title: Projects
 #  url: /pages/projects.html
 
+- title: Publications
+  url: /pages/publications.html
+
+ 
 - title: Presentations
   url: /pages/presentations.html
-
+  
 - title: About
   url: /pages/about.html
-  
-- title: CV
-  url: /pages/CV.html
   
