@@ -1,7 +1,7 @@
 ---
 layout: home
-excerpt: "Srijan R Shetty : Eccentric, Scribbler, Hacker"
-tags: [Blog, tech, poems, rants, hacks]
+excerpt: "Jan Stanstrup"
+tags: [R, metabolomics, random stuff]
 #image:
   #feature: # image here
   #credit:  # names here
