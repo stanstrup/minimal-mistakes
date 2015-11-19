@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Presentations"
+title: ""
 date: Thu, Nov 19, 2015 2:07 PM
 modified: Thu, Nov 19, 2015 2:07 PM
 excerpt: "Presentations I have given"

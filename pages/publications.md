@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Publications"
+title: ""
 date: Wed, Nov 18, 2015 11:54 PM
 modified: Wed, Nov 18, 2015 11:55 PM
 excerpt: "My peer reviewed publications"
