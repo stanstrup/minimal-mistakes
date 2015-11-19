@@ -40,6 +40,9 @@ body {
 		@include grid(12,1);
 		@include prefix(12,0.5);
 	}
+	a {
+		color: #4e4e4e;
+	}
 }
 
 /* Top navigation links */
@@ -84,6 +87,7 @@ body {
 			padding: 10px 0;
 			decoration: none;
 			border-bottom: 0 solid transparent;
+			color: #4e4e4e;
 			@include transition(all .2s);
 			@media #{$small} {
 				display: inline;
