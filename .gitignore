@@ -8,3 +8,6 @@ node_modules
 _asset_bundler_cache
 .grunt
 Gemfile.lock
+.Rproj.user
+_cache__packages
+_cacheunnamed-chunk-*
