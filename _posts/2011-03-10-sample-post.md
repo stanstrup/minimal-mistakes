@@ -6,6 +6,8 @@ modified: 2013-05-31
 tags: [intro, beginner, jekyll, tutorial]
 # categories: samples, samples2
 comments: true
+visible: 1
+published: false
 image:
   feature: sample-image-5.jpg
   credit: WeGraphics
