@@ -562,7 +562,7 @@ data_annotated %>% filter(pcgroup==16) %>% select(one_of(info_cols,"anno_exp","a
 
 
 <br>
-Lets take a look at another feature. This time we have experimental RTs that say the feature is either 1,7-dimethylxanthine OR theobromine but a prediction from the PredRet database also suggest that the feature could be dimethylxanthine as well.
+Lets take a look at another feature. This time we have experimental RTs that say the feature is either 1,7-dimethylxanthine OR theobromine but a prediction from the PredRet database also suggest that the feature could be theophylline as well.
 
 
 {% highlight r %}
