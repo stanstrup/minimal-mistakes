@@ -246,6 +246,11 @@ $button-size: 1.5rem;
 			@include grid(12,6);
 			@include prefix(12,2); // adds 3 columns of blank space to the left
 		}
+		h1 {
+			a {
+				color: #4e4e4e;
+			}
+		}
 	}
 }
 
@@ -322,6 +327,9 @@ $button-size: 1.5rem;
                 margin-bottom: 0px + $doc-line-height;
                 margin-bottom: 0rem + ($doc-line-height / $doc-font-size);
             }
+			a {
+				color: #4e4e4e;
+			}
         }
         p {
             @include font-rem(14);
@@ -366,6 +374,7 @@ $button-size: 1.5rem;
         position: absolute;
         bottom: 25px;
         @include prefix(12,1);
+		
         @media #{$small} {
             left: 25%;
             margin-left: 0;
@@ -709,13 +718,13 @@ $button-size: 1.5rem;
 	@include suffix(12,1);
 	margin-bottom: 2em;
 	@media #{$small} {
-		@include grid(12,6);
-		@include prefix(12,3);
+		@include grid(12,5.5);
+		@include prefix(12,1.5);
 		@include suffix(12,3);
 	}
 	@media #{$x-large} {
-		@include grid(12,4.5);
-		@include prefix(12,4);
+		@include grid(12,6);
+		@include prefix(12,2);
 		@include suffix(12,3.5);
 	}
 	h4 {
