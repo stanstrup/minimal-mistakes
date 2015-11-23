@@ -62,7 +62,7 @@ In short PredRet is a user-driven database of compound retention times. The purp
 ## Pulling data from PredRet
 
 So lets get going. <br>
-First we will download the PredRet database with the [PredRetR package](https://github.com/stanstrup/PredRet).
+First we will download the PredRet database with the [PredRetR package](https://github.com/stanstrup/PredRet). We will get both the experimental and the predicted values for the chromatographic system "LIFE_old".
 
 ```{r, echo=-9,eval=-7}
 library(PredRetR)

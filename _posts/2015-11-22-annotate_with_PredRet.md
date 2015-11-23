@@ -62,7 +62,7 @@ In short PredRet is a user-driven database of compound retention times. The purp
 ## Pulling data from PredRet
 
 So lets get going. <br>
-First we will download the PredRet database with the [PredRetR package](https://github.com/stanstrup/PredRet).
+First we will download the PredRet database with the [PredRetR package](https://github.com/stanstrup/PredRet). We will get both the experimental and the predicted values for the chromatographic system "LIFE_old".
 
 
 {% highlight r %}
@@ -71,6 +71,12 @@ library(PredRetR)
 predret_db <-    PredRet_get_db(exp_pred = c("exp","pred"),
                                 systems = "LIFE_old"
                                )
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in PredRet_get_db(exp_pred = c("exp", "pred"), systems = "LIFE_old"): unused argument (systems = "LIFE_old")
 {% endhighlight %}
 
 
@@ -85,113 +91,14 @@ head(predret_db)
 
 
 {% highlight text %}
-## [1] 573  12
+## Error in eval(expr, envir, enclos): object 'predret_db' not found
 {% endhighlight %}
 
-<table class="nicetable">
- <thead>
-  <tr>
-   <th style="text-align:left;"> system </th>
-   <th style="text-align:left;"> name </th>
-   <th style="text-align:right;"> pubchem </th>
-   <th style="text-align:left;"> inchi </th>
-   <th style="text-align:left;"> date added </th>
-   <th style="text-align:left;"> username </th>
-   <th style="text-align:left;"> predicted </th>
-   <th style="text-align:left;"> suspect </th>
-   <th style="text-align:right;"> recorded_rt </th>
-   <th style="text-align:right;"> predicted_rt </th>
-   <th style="text-align:right;"> ci_lower </th>
-   <th style="text-align:right;"> ci_upper </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> LIFE_old </td>
-   <td style="text-align:left;"> (DL)-p-hydroxyphenyllactic acid </td>
-   <td style="text-align:right;"> 9378 </td>
-   <td style="text-align:left;"> InChI=1S/C9H10O4/c10-7-3-1-6(2-4-7)5-8(11)9(12)13/h1-4,8,10-11H,5H2,(H,12,13) </td>
-   <td style="text-align:left;"> 2014-09-02 15:20:11 </td>
-   <td style="text-align:left;"> jan </td>
-   <td style="text-align:left;"> FALSE </td>
-   <td style="text-align:left;"> FALSE </td>
-   <td style="text-align:right;"> 1.544350 </td>
-   <td style="text-align:right;"> NA </td>
-   <td style="text-align:right;"> NA </td>
-   <td style="text-align:right;"> NA </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> LIFE_old </td>
-   <td style="text-align:left;"> (R)-2-hydroxybutyric acid </td>
-   <td style="text-align:right;"> 11266 </td>
-   <td style="text-align:left;"> InChI=1S/C4H8O3/c1-2-3(5)4(6)7/h3,5H,2H2,1H3,(H,6,7) </td>
-   <td style="text-align:left;"> 2014-09-02 15:20:11 </td>
-   <td style="text-align:left;"> jan </td>
-   <td style="text-align:left;"> FALSE </td>
-   <td style="text-align:left;"> FALSE </td>
-   <td style="text-align:right;"> 1.399400 </td>
-   <td style="text-align:right;"> NA </td>
-   <td style="text-align:right;"> NA </td>
-   <td style="text-align:right;"> NA </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> LIFE_old </td>
-   <td style="text-align:left;"> 1-O-1'-(Z)-octadecenyl-2-hydroxy-sn-glycero-3-phosphocholine (LysoPC(P-18:0)) </td>
-   <td style="text-align:right;"> 24779527 </td>
-   <td style="text-align:left;"> InChI=1S/C26H54NO6P/c1-5-6-7-8-9-10-11-12-13-14-15-16-17-18-19-20-22-31-24-26(28)25-33-34(29,30)32-23-21-27(2,3)4/h20,22,26,28H,5-19,21,23-25H2,1-4H3 </td>
-   <td style="text-align:left;"> 2014-09-02 15:20:11 </td>
-   <td style="text-align:left;"> jan </td>
-   <td style="text-align:left;"> FALSE </td>
-   <td style="text-align:left;"> FALSE </td>
-   <td style="text-align:right;"> 4.947717 </td>
-   <td style="text-align:right;"> NA </td>
-   <td style="text-align:right;"> NA </td>
-   <td style="text-align:right;"> NA </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> LIFE_old </td>
-   <td style="text-align:left;"> 2-Hydroxy-2-methylbutyric acid </td>
-   <td style="text-align:right;"> 95433 </td>
-   <td style="text-align:left;"> InChI=1S/C5H10O3/c1-3-5(2,8)4(6)7/h8H,3H2,1-2H3,(H,6,7) </td>
-   <td style="text-align:left;"> 2015-06-08 17:19:00 </td>
-   <td style="text-align:left;"> jan </td>
-   <td style="text-align:left;"> FALSE </td>
-   <td style="text-align:left;"> TRUE </td>
-   <td style="text-align:right;"> 1.625783 </td>
-   <td style="text-align:right;"> NA </td>
-   <td style="text-align:right;"> NA </td>
-   <td style="text-align:right;"> NA </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> LIFE_old </td>
-   <td style="text-align:left;"> 2-Hydroxy-3-methylbutyric acid </td>
-   <td style="text-align:right;"> 99823 </td>
-   <td style="text-align:left;"> InChI=1S/C5H10O3/c1-3(2)4(6)5(7)8/h3-4,6H,1-2H3,(H,7,8) </td>
-   <td style="text-align:left;"> 2015-06-08 17:19:00 </td>
-   <td style="text-align:left;"> jan </td>
-   <td style="text-align:left;"> FALSE </td>
-   <td style="text-align:left;"> TRUE </td>
-   <td style="text-align:right;"> 1.685467 </td>
-   <td style="text-align:right;"> NA </td>
-   <td style="text-align:right;"> NA </td>
-   <td style="text-align:right;"> NA </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> LIFE_old </td>
-   <td style="text-align:left;"> 2-methylacetoacetic acid </td>
-   <td style="text-align:right;"> 150996 </td>
-   <td style="text-align:left;"> InChI=1S/C5H8O3/c1-3(4(2)6)5(7)8/h3H,1-2H3,(H,7,8) </td>
-   <td style="text-align:left;"> 2014-09-02 15:20:11 </td>
-   <td style="text-align:left;"> jan </td>
-   <td style="text-align:left;"> FALSE </td>
-   <td style="text-align:left;"> FALSE </td>
-   <td style="text-align:right;"> 1.612850 </td>
-   <td style="text-align:right;"> NA </td>
-   <td style="text-align:right;"> NA </td>
-   <td style="text-align:right;"> NA </td>
-  </tr>
-</tbody>
-</table>
+
+
+{% highlight text %}
+## Error in head(predret_db): object 'predret_db' not found
+{% endhighlight %}
 
 
 
@@ -205,9 +112,36 @@ library(Rdisop)
 library(stringr)
 
 formulas   <- str_split_fixed(predret_db[,"inchi"],"/",3)[,2]
-masses     <- sapply(formulas, function(x) getMass(getMolecule(x))   )
+{% endhighlight %}
 
+
+
+{% highlight text %}
+## Error in stri_split_regex(string, pattern, n = n, simplify = TRUE, opts_regex = attr(pattern, : object 'predret_db' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
+masses     <- sapply(formulas, function(x) getMass(getMolecule(x))   )
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in lapply(X = X, FUN = FUN, ...): object 'formulas' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
 predret_db <- cbind.data.frame(predret_db, mz_pos = masses + 1.0073)
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in data.frame(..., check.names = FALSE): object 'predret_db' not found
 {% endhighlight %}
 
 
@@ -219,7 +153,24 @@ We can then split the database in two. One for the experimental RTs and one for 
 {% highlight r %}
 library(dplyr)
 predret_db %>% filter(!is.na(recorded_rt)) -> predret_db_exp
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in eval(expr, envir, enclos): object 'predret_db' not found
+{% endhighlight %}
+
+
+
+{% highlight r %}
 predret_db %>% filter(is.na(recorded_rt))  -> predret_db_pred
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in eval(expr, envir, enclos): object 'predret_db' not found
 {% endhighlight %}
 
 
@@ -233,10 +184,26 @@ So we can load a dataset/peaklist. This peaklist was previously created with XCM
 
 {% highlight r %}
 library(readxl)
+{% endhighlight %}
 
+
+
+{% highlight text %}
+## Error in library(readxl): there is no package called 'readxl'
+{% endhighlight %}
+
+
+
+{% highlight r %}
 data <- read_excel("../material/data/peaklist_pos.xlsx") %>% 
         replace(is.na(.), "") %>% 
         as.data.frame
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in eval(expr, envir, enclos): could not find function "read_excel"
 {% endhighlight %}
 
 <br>
@@ -250,7 +217,7 @@ dim(data)
 
 
 {% highlight text %}
-## [1] 4232  470
+## NULL
 {% endhighlight %}
 
 
@@ -262,13 +229,7 @@ head(    data[,info_cols]    )
 
 
 {% highlight text %}
-##          mz       rt   isotopes              adduct pcgroup
-## 1  62.06013 273.8827            [M+H-C5H8O]+ 145.11       1
-## 2  95.08600 271.5567                                      1
-## 3  98.09642 268.1695                                      1
-## 4 104.10687 271.2400   [12][M]+ [M+H-COCH2]+ 145.11       1
-## 5 105.11030 271.2415 [12][M+1]+                           1
-## 6 114.09119 268.9771            [M+H-CH3OH]+ 145.11       1
+## Error in data[, info_cols]: object of type 'closure' is not subsettable
 {% endhighlight %}
 
 <br>
@@ -280,7 +241,17 @@ The first two arguments to the function are the *m/z* and RT of the dataset. The
 
 {% highlight r %}
 library(chemhelper)
+{% endhighlight %}
 
+
+
+{% highlight text %}
+## Error in library(chemhelper): there is no package called 'chemhelper'
+{% endhighlight %}
+
+
+
+{% highlight r %}
 anno_exp <- db.comp.assign(mz           = data[,"mz"],
                            rt           = data[,"rt"],
                            comp_name_db = predret_db_exp[,"name"],
@@ -295,11 +266,7 @@ anno_exp <- db.comp.assign(mz           = data[,"mz"],
 
 
 {% highlight text %}
-##                                         [,1]
-## Unique hits                               86
-## Non-unique hits                           10
-## Compounds not found                      207
-## Markers had multiple compounds assigned   50
+## Error in eval(expr, envir, enclos): could not find function "db.comp.assign"
 {% endhighlight %}
 
 
@@ -319,11 +286,7 @@ anno_pred <- db.comp.assign(mz          = data[,"mz"],
 
 
 {% highlight text %}
-##                                         [,1]
-## Unique hits                               34
-## Non-unique hits                            2
-## Compounds not found                      234
-## Markers had multiple compounds assigned    5
+## Error in eval(expr, envir, enclos): could not find function "db.comp.assign"
 {% endhighlight %}
 
 
@@ -332,6 +295,12 @@ Now lets put the annotations together with our dataset.
 
 {% highlight r %}
 data_annotated <- cbind.data.frame(data,anno_exp,anno_pred)
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in data.frame(..., check.names = FALSE): object 'anno_exp' not found
 {% endhighlight %}
 
 
@@ -346,219 +315,10 @@ There is also a fragment annotated as adipic acid and 2-methylglutaric acid usin
 data_annotated %>% filter(pcgroup==16) %>% select(one_of(info_cols,"anno_exp","anno_pred"))
 {% endhighlight %}
 
-<table class="nicetable">
- <thead>
-  <tr>
-   <th style="text-align:right;"> mz </th>
-   <th style="text-align:right;"> rt </th>
-   <th style="text-align:left;"> isotopes </th>
-   <th style="text-align:left;"> adduct </th>
-   <th style="text-align:right;"> pcgroup </th>
-   <th style="text-align:left;"> anno_exp </th>
-   <th style="text-align:left;"> anno_pred </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:right;"> 118.0657 </td>
-   <td style="text-align:right;"> 91.31296 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [M+H-NH3-CO-COCH2]+ 204.09 </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 130.0655 </td>
-   <td style="text-align:right;"> 91.40512 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 132.0808 </td>
-   <td style="text-align:right;"> 91.27887 </td>
-   <td style="text-align:left;"> [44][M]+ </td>
-   <td style="text-align:left;"> [M+H-NH3-CO-CO]+ 204.09 </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 133.0845 </td>
-   <td style="text-align:right;"> 91.19346 </td>
-   <td style="text-align:left;"> [44][M+1]+ </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 142.0647 </td>
-   <td style="text-align:right;"> 91.20588 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [M+H-NH3-HCOOH]+ 204.09 </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 144.0416 </td>
-   <td style="text-align:right;"> 91.25665 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 144.0814 </td>
-   <td style="text-align:right;"> 91.34230 </td>
-   <td style="text-align:left;"> [55][M]+ </td>
-   <td style="text-align:left;"> [M+H-NH3-CO2]+ 204.09 </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 145.0846 </td>
-   <td style="text-align:right;"> 91.28341 </td>
-   <td style="text-align:left;"> [55][M+1]+ </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 146.0599 </td>
-   <td style="text-align:right;"> 91.33676 </td>
-   <td style="text-align:left;"> [58][M]+ </td>
-   <td style="text-align:left;"> [M+H-NH3-COCH2]+ 204.09 </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 147.0647 </td>
-   <td style="text-align:right;"> 91.36894 </td>
-   <td style="text-align:left;"> [58][M+1]+ </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;"> Adipic acid  OR  Adipic acid </td>
-   <td style="text-align:left;"> 2-Methylglutaric Acid </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 159.0922 </td>
-   <td style="text-align:right;"> 91.28882 </td>
-   <td style="text-align:left;"> [71][M]+ </td>
-   <td style="text-align:left;"> [M+H-HCOOH]+ 204.09 </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 160.0851 </td>
-   <td style="text-align:right;"> 91.35138 </td>
-   <td style="text-align:left;"> [71][M+1]+ </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 170.0608 </td>
-   <td style="text-align:right;"> 91.34747 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [M+H-NH3-H2O]+ 204.09 </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 188.0711 </td>
-   <td style="text-align:right;"> 91.34805 </td>
-   <td style="text-align:left;"> [93][M]+ </td>
-   <td style="text-align:left;"> [M+H-NH3]+ 204.09 </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 189.0743 </td>
-   <td style="text-align:right;"> 91.28935 </td>
-   <td style="text-align:left;"> [93][M+1]+ </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 205.0979 </td>
-   <td style="text-align:right;"> 91.32364 </td>
-   <td style="text-align:left;"> [102][M]+ </td>
-   <td style="text-align:left;"> [M+H]+ 204.09 </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;"> tryptophan  OR  Tryptophan  OR  Tryptophan </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 206.1034 </td>
-   <td style="text-align:right;"> 91.31068 </td>
-   <td style="text-align:left;"> [102][M+1]+ </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 245.1301 </td>
-   <td style="text-align:right;"> 91.91434 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [M+H+(CH3)2CO-H2O]+ (acetone cond.) 204.09 </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 276.1823 </td>
-   <td style="text-align:right;"> 91.41425 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 409.1873 </td>
-   <td style="text-align:right;"> 91.28252 </td>
-   <td style="text-align:left;"> [265][M]+ </td>
-   <td style="text-align:left;"> [2M+H]+ 204.09 </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 410.1906 </td>
-   <td style="text-align:right;"> 91.26287 </td>
-   <td style="text-align:left;"> [265][M+1]+ </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 447.1336 </td>
-   <td style="text-align:right;"> 91.29100 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [2M+K]+ 204.09 [4M+2K]2+ 204.09 </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-</tbody>
-</table>
+
+{% highlight text %}
+## Error in eval(expr, envir, enclos): object 'data_annotated' not found
+{% endhighlight %}
 
 
 <br>
@@ -569,57 +329,10 @@ Lets take a look at another feature. This time we have experimental RTs that say
 data_annotated %>% filter(pcgroup==400) %>% select(one_of(info_cols,"anno_exp","anno_pred"))
 {% endhighlight %}
 
-<table class="nicetable">
- <thead>
-  <tr>
-   <th style="text-align:right;"> mz </th>
-   <th style="text-align:right;"> rt </th>
-   <th style="text-align:left;"> isotopes </th>
-   <th style="text-align:left;"> adduct </th>
-   <th style="text-align:right;"> pcgroup </th>
-   <th style="text-align:left;"> anno_exp </th>
-   <th style="text-align:left;"> anno_pred </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:right;"> 124.0508 </td>
-   <td style="text-align:right;"> 89.67717 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> 400 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 181.0725 </td>
-   <td style="text-align:right;"> 89.56150 </td>
-   <td style="text-align:left;"> [86][M]+ </td>
-   <td style="text-align:left;"> [M+H-NH3-CO2-NH3-H2O]+ 276.119 [M+H-C4H6-COCH2]+ 276.119 </td>
-   <td style="text-align:right;"> 400 </td>
-   <td style="text-align:left;"> 1,7-dimethylxanthine  OR  theobromine </td>
-   <td style="text-align:left;"> theobromine  OR  theophylline  OR  1,7-Dimethylxanthine </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 182.0761 </td>
-   <td style="text-align:right;"> 89.59507 </td>
-   <td style="text-align:left;"> [86][M+1]+ </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> 400 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 315.0806 </td>
-   <td style="text-align:right;"> 89.70856 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;"> [M+K]+ 276.119 </td>
-   <td style="text-align:right;"> 400 </td>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:left;">  </td>
-  </tr>
-</tbody>
-</table>
+
+{% highlight text %}
+## Error in eval(expr, envir, enclos): object 'data_annotated' not found
+{% endhighlight %}
 
 
 <br>
