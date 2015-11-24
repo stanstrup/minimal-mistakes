@@ -53,7 +53,7 @@ ul {
 
 ### Wrappers for command-line tools
 * [obabel2R](https://github.com/stanstrup/obabel2R): Functions for calling openbabel executable inside R.
-* [jchemR](https://github.com/stanstrup/jchemR): Wrapper functions for the commandline version of jchem. (cxcalc)
+* [jchemR](https://github.com/stanstrup/jchemR): Wrapper functions for the commandline version of jchem (cxcalc).
 
 
 ## Matlab functions
