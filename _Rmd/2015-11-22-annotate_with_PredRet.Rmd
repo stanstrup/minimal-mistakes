@@ -4,6 +4,7 @@ excerpt: "Here I show how you can use the PredRet database to annotate your data
 author: "Jan Stanstrup"
 modified: 2015-11-22
 categories: metabolomics PredRet R
+comments: true
 layout: post
 output:
   html_document:
