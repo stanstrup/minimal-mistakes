@@ -21,12 +21,29 @@ td.td_nowrap {
     padding-right: 3rem;
     width: 10rem;
 }
+h2 {
+	margin-bottom: 0.1rem;
+}
 </style>
 
 
+## Contact and social networks
+
+<script language="JavaScript">var username = "stanstrup";var hostname = "gmail.com";var linktext = username + "@" + hostname ;document.write("E-mail: <a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");</script>
+Github: [stanstrup](https://github.com/stanstrup)<br>
+Twitter: [@JanStanstrup](https://twitter.com/JanStanstrup)<br>
+Linkedin: [jan-stanstrup](https://www.linkedin.com/in/jan-stanstrup-85421614)<br>
+Researchgate: [Jan_Stanstrup](https://www.researchgate.net/profile/Jan_Stanstrup)<br>
+Google scholar: [Gw554E8AAAAJ](https://scholar.google.it/citations?user=Gw554E8AAAAJ&hl=en)<br>
+ORCID: [0000-0003-0541-7369](http://orcid.org/0000-0003-0541-7369)
 
 
-<h2 style="margin-bottom: 0.1rem;"> Work </h2>
+
+
+
+
+
+<h2> Work </h2>
 <a href="#work" onclick="toggle_visibility('work');" style="color: #4e4e4e;">(click to show/hide)</a>
 
 <div id="work"  style="display: none;">
@@ -97,7 +114,7 @@ td.td_nowrap {
 
 
 
-<h2 style="margin-bottom: 0.1rem;"> Education </h2>
+<h2> Education </h2>
 <a href="#education" onclick="toggle_visibility('education');" style="color: #4e4e4e;">(click to show/hide)</a>
 
 <div id="education"  style="display: none;">
@@ -127,7 +144,7 @@ td.td_nowrap {
 
 
 
-<h2 style="margin-bottom: 0.1rem;"> Teaching experience </h2>
+<h2> Teaching experience </h2>
 <a href="#teaching" onclick="toggle_visibility('teaching');" style="color: #4e4e4e;">(click to show/hide)</a>
 
 <div id="teaching"  style="display: none;">
