@@ -1,0 +1,434 @@
+---
+title: "Heatmaps the right way"
+excerpt: "A study on the pitfalls in scaling and other strangenesses"
+author: "Jan Stanstrup"
+modified: 2015-11-25
+categories: R
+comments: true
+layout: post
+output:
+  html_document:
+    highlight: espresso
+    keep_md: yes
+    number_sections: yes
+    theme: cerulean
+    toc: yes
+    fig_caption: yes
+    fig_retina: 1 
+  pdf_document:
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+  word_document: default
+---
+
+<section id="table-of-contents" class="toc">
+  <header>
+    <h3>Overview</h3>
+  </header>
+<div id="drawer" markdown="1">
+*  Auto generated table of contents
+{:toc}
+</div>
+</section><!-- /#table-of-contents -->
+
+
+In this post I will go through some of the pitfalls of heatmap generation in R. I found that at least for me the heatmap functions do not always do what you think they do. When working with my own data I got convinced that something was wrong and investigated. I found that scaling was not done the way it would seem from the documentation of several functions. I eventually ended in on [stackoverflow](http://stackoverflow.com/questions/17924828/differences-in-heatmap-clustering-defaults-in-r-heatplot-versus-heatmap-2) where Thomas W. Leja had explained what was going on.<br>
+
+Asking several colleagues no-one was aware of the issues I had found. I have therefore written up my findings here and in this post I will show in detail what to me doesn't work as I expected and how do gain control of what precisely is done when you make a heatmap. <br>
+If you are surprised as well by the below please pass this on to everybody you know that might not be making heatmaps the way they think they are.
+
+<br><br>
+
+
+## heatplot from made4
+
+Lets start with heatplot from the made4 package just using the default settings.
+
+```{r, fig.cap="Fig. 1", results="hide"}
+library(made4)
+
+x <- as.matrix(mtcars)
+heatplot(x,margins=c(4,7))
+```
+
+Yikes! This is not good for this data. This is because ```heatplot``` by default does row scaling only. Fair enough. Lets use column scaling instead.
+<br><br>
+
+
+
+```{r, fig.cap="Fig. 2", results="hide"}
+x <- as.matrix(mtcars)
+heatplot(x,scale="column",margins=c(4,7))
+```
+
+Much better! But wait! Did you see it? The colors in the plot changed. But the dendrogram did not! It turns out that the ```scale``` argument only refers to the scaling of the heat data, NOT what happens to the scaling before calculation of the dendrograms.<br>
+So how is the data for the dendrogram actually scaled now??? It turns out that if you look at the code for the function ```dualScale``` it does NOT do what it says. ```dualScale``` applies row scaling before dendrogram calculations... And that is it. So now we have row scaling for the dendrograms and have *added* additional column scaling for the heat data. Hmmmm... not what we want either.<br>
+
+So lets turn off the row scaling and we do the column scaling before we give the data to ```heatplot```.<br><br>
+
+```{r, fig.cap="Fig. 3", results="hide"}
+x <- scale(as.matrix(mtcars))
+heatplot(x,scale="none",dualScale=FALSE,margins=c(4,7))
+```
+ 
+Good then. That seems better, all is well. Well... There is a thing more that probably did not work as you had thought but is not very visible in this case. <br>
+```heatplot``` has the argument zlim which by default reassigns all values smaller than -3 and all values above 3 to -3 and 3 respectively. This makes a lot of sense when you use unit variance scaling. If you don't do that most of your values will be in the middle of the distribution which gives you very pale colors since only the very extreme values will use the full range of the color gradient.<br>
+The problem here is that ```zlim``` is actually turned off when ```dualScale=FALSE``` which was probably not obvious to you either. In this case it doesn't do much damage but if the destribution of you data is tailed this won't look nice. <br>
+
+Pheww... Now we understand ```heatplot```.<br><br>
+
+ 
+ 
+ 
+ 
+## heatmap from stats and heatmap.2 from gplots
+
+Now lets see if we can do the same plot with ```heatmap``` from ```stats```. ```heatmap``` uses different defaults for distance calculation and clustering so lets change ```heatmap``` to use the same calculations and also make the color the same.
+
+```{r, fig.cap="Fig. 4"}
+library(RColorBrewer)
+
+x <- scale(as.matrix(mtcars))
+heatmap(x,
+        scale     = "none",
+        col       = rev(colorRampPalette(brewer.pal(10, "RdBu"))(256)),
+        distfun   = function(x) as.dist(1-cor(t(x))), 
+        hclustfun = function(x) hclust(x, method="ave")
+        )
+```
+
+Oh no! Both dendrogram and the heat data is different. It turns out there are two reasons for this. For the dendrogram it turns out that ```heatplot``` uses the dendrogram directly whereas ```heatmap``` reorders the dendrogram based on row means. As far as I could find you cannot change this without calculating the dendrograms seperately.<br>
+
+For the colors it turns out that heatplot uses so-called symmetric breaks which means that 0 is put in the middle of the distribution of the data.<br>
+**Btw.: And this is very important, ```heatmap``` and ```heatmap.2``` (we will get to that one) has the same "feature" as ```heatplot```: ```scale``` refers ONLY to the heat data, NOT the dendrogram calculation.**
+
+Lets jump right to ```heatmap.2``` which is basically a version of ```heatmap``` with more options.<br>
+
+
+```{r, fig.cap="Fig. 5"}
+x <- scale(as.matrix(mtcars))
+heatmap.2(x,
+          scale     = "none",
+          trace     = "none",
+          col       = rev(colorRampPalette(brewer.pal(10, "RdBu"))(256)),
+          distfun   = function(x) as.dist(1-cor(t(x))), 
+          hclustfun = function(x) hclust(x, method="ave"),
+          margins=c(4,7)
+          )
+```
+
+This looks similar to ```heatplot``` but ```heatmap.2``` reorders as above while ```heatplot```  does not.
+<br><br>
+ 
+ 
+ 
+ 
+ 
+## Gaining full controls
+
+If you are not busy hyperventilating at this point I will offer here a solution that will give the control we seek over when exactly what happens to the data.<br>
+
+I have created (well actually I have stolen and expanded the [code provided by Thomas W. Leja](http://stackoverflow.com/questions/17924828/differences-in-heatmap-clustering-defaults-in-r-heatplot-versus-heatmap-2)) a function, ```heat.clust```, that will generate scaled data and dendrograms that can be passed to ```heatmap.2```so that it can be controlled what happens at which point. You can find the function in my package [massageR](https://github.com/stanstrup/massageR).<br>
+Lets jump into an example.
+
+<br>
+
+```{r, fig.cap="Fig. 6"}
+library(massageR)
+library(gplots)
+
+x <- as.matrix(mtcars)
+z <- heat.clust(x,
+                scaledim="column",
+                zlim=c(-3,3),
+                zlim_select = c("dend","outdata"),
+                reorder=c("column","row"),
+                distfun  = function(x) as.dist(1-cor(t(x))), 
+                hclustfun= function(x) hclust(x, method="complete"),
+                scalefun = scale)
+
+
+heatmap.2(z$data,
+          Rowv=z$Rowv, 
+          Colv=z$Colv,
+          trace="none",
+          scale="none",
+          symbreaks = TRUE,
+          col=rev(colorRampPalette(brewer.pal(10, "RdBu"))(256)),
+          margins=c(4,7)
+          )
+```
+
+<br>
+The parameters for ```heat.clust``` do the following:
+
+* scaledim: Selects to scale "column" or "row" or both (```scaledim = c("row","column")```).
+* zlim: Selects the limits of the data after scaling. Note that if you use anything else than unit variance scaling you should consider these limits. -3 to 3 probably doesn't make sense in any other case. You can disable the limits using.
+* zlim_select: Selects when to apply ```zlim```. For the dendrogram and/or for the outputted (scaled) data that is passed to ```heatmap.2```.
+* reorder: Selects if to reorder the dendrogram by "column" and/or "row" means.
+* distfun: The function for distance calculation.
+* hclustfun: The function for clustering.
+* scalefun: the function to use for scaling.
+
+<br>
+
+Next we simply pass on the data and row and column dendrograms to ```heatmap.2```. We can then do additional scaling and set symmetric breaks if we want.<br>
+I hope you enjoy the read and now feel you know exactly what the heatmap funcions do.
+<br><br>
+ 
+ 
+ 
+ 
+## Exemplifying why it matters when you do scaling
+
+If you are not convinced that the above is very important I will explain here why scaling is really really important. <br>
+Lets take the same data as before and do no scaling at all.
+
+```{r, fig.cap="Fig. 7"}
+x <- as.matrix(mtcars)
+
+z <- heat.clust(x,
+                scaledim="none",
+                zlim=c(-3,3),
+                zlim_select = "none",
+                reorder=c("column","row"),
+                distfun  = function(x) as.dist(1-cor(t(x))), 
+                hclustfun= function(x) hclust(x, method="complete"),
+                scalefun = scale)
+
+
+heatmap.2(z$data,
+          Rowv=z$Rowv, 
+          Colv=z$Colv,
+          trace="none",
+          scale="none",
+          symbreaks = TRUE,
+          col=rev(colorRampPalette(brewer.pal(10, "RdBu"))(256)),
+          margins=c(4,7)
+          )
+```
+
+
+We can clearly see that this is no good. Now if we do the same just with scaling for the heat data we get.
+<br>
+
+
+
+ 
+```{r, fig.cap="Fig. 8"}
+x <- as.matrix(mtcars)
+
+z <- heat.clust(x,
+                scaledim="none",
+                zlim=c(-3,3),
+                zlim_select = "none",
+                reorder=c("column","row"),
+                distfun  = function(x) as.dist(1-cor(t(x))), 
+                hclustfun= function(x) hclust(x, method="complete"),
+                scalefun = scale)
+
+
+heatmap.2(z$data,
+          Rowv=z$Rowv, 
+          Colv=z$Colv,
+          trace="none",
+          scale="column",
+          symbreaks = TRUE,
+          col=rev(colorRampPalette(brewer.pal(10, "RdBu"))(256)),
+          margins=c(4,7)
+          )
+```
+ 
+ 
+ 
+Does look so bad right? Wrong! Compared to the last plot we did in the previous section you might think the clustering doesn't look that different.
+But lets look at what actually happened to the correlation matrix for the rows when the columns are not scaled.
+<br>
+ 
+ 
+ 
+ 
+ 
+```{r, fig.cap="Fig. 9"}
+library(corrplot)
+
+x <- as.matrix(mtcars)
+corrplot(cor(t(x)), method="color")
+```
+ 
+<br> 
+Dang! Everything is super correlated! And if you plot two rows against each other we see why.
+
+<br> 
+
+ 
+ 
+```{r, fig.cap="Fig. 10"}
+x <- as.matrix(mtcars)
+
+plot(x[6,],x[7,])
+cor(x[6,],x[7,])
+```
+
+<br>
+Because the variables are on so different scales fitting a line through seems pretty linear and the correlation is high... <br>
+But if we do the scaling we see the truth.
+
+
+<br>
+
+```{r, fig.cap="Fig. 10"}
+x <- scale(as.matrix(mtcars))
+
+plot(x[6,],x[7,])
+cor(x[6,],x[7,])
+```
+ 
+<br>
+Not correlated at all it turns out.
+
+
+<br><br>
+ 
+ 
+ 
+## Equivalent plots using heat.clust + heatmap.2
+In this section I replicate all the plots above so you can see exactly what each command do when using full control of what happens. <br><br>
+
+ 
+<a href="#fig1eq" onclick="toggle_visibility('fig1eq');" style="color: #4e4e4e;">Fig. 1 equivalent (click to show/hide)</a> 
+<div id="fig1eq" style="display: none;" markdown="1">
+
+```{r, fig.cap="Fig. 1 equivalent"}
+library(massageR)
+library(gplots)
+
+x <- as.matrix(mtcars)
+z <- heat.clust(x,scaledim="row",zlim=c(-3,3),reorder="none",
+                distfun  = function(x) as.dist(1-cor(t(x))), 
+                hclustfun= function(x) hclust(x, method="ave"),
+                scalefun = scale)
+
+
+heatmap.2(z$data,
+          Rowv=z$Rowv, 
+          Colv=z$Colv,
+          trace="none",
+          scale="none",
+          symbreaks = TRUE,
+          col=rev(colorRampPalette(brewer.pal(10, "RdBu"))(256)),
+          margins=c(4,7)
+          )
+```
+
+</div>
+
+
+
+ 
+<a href="#fig2eq" onclick="toggle_visibility('fig2eq');" style="color: #4e4e4e;">Fig. 2 equivalent (click to show/hide)</a> 
+<div id="fig2eq" style="display: none;" markdown="1">
+
+```{r, fig.cap="Fig. 2 equivalent"}
+x <- as.matrix(mtcars)
+z <- heat.clust(x,scaledim="row",zlim=c(-3,3),reorder="none",
+                distfun  = function(x) as.dist(1-cor(t(x))), 
+                hclustfun= function(x) hclust(x, method="ave"),
+                scalefun = scale)
+
+
+heatmap.2(z$data,
+          Rowv=z$Rowv, 
+          Colv=z$Colv,
+          trace="none",
+          scale="column",
+          symbreaks = TRUE,
+          col=rev(colorRampPalette(brewer.pal(10, "RdBu"))(256)),
+          margins=c(4,7)
+          )
+```
+
+</div>
+
+
+
+<a href="#fig3eq" onclick="toggle_visibility('fig3eq');" style="color: #4e4e4e;">Fig. 3 equivalent (click to show/hide)</a> 
+<div id="fig3eq" style="display: none;" markdown="1">
+
+```{r, fig.cap="Fig. 3 equivalent"}
+x <- as.matrix(mtcars)
+z <- heat.clust(x,scaledim="column",zlim=c(-Inf,Inf),reorder="none",
+                distfun  = function(x) as.dist(1-cor(t(x))), 
+                hclustfun= function(x) hclust(x, method="ave"),
+                scalefun = scale)
+
+
+heatmap.2(z$data,
+          Rowv=z$Rowv, 
+          Colv=z$Colv,
+          trace="none",
+          scale="none",
+          symbreaks = TRUE,
+          col=rev(colorRampPalette(brewer.pal(10, "RdBu"))(256)),
+          margins=c(4,7)
+          )
+```
+
+</div>
+
+
+
+
+<a href="#fig4eq" onclick="toggle_visibility('fig4eq');" style="color: #4e4e4e;">Fig. 4 equivalent (click to show/hide)</a> 
+<div id="fig4eq" style="display: none;" markdown="1">
+
+```{r, fig.cap="Fig. 4 equivalent"}
+x <- as.matrix(mtcars)
+z <- heat.clust(x,scaledim="column",zlim=c(-Inf,Inf),reorder=c("column","row"),
+                distfun  = function(x) as.dist(1-cor(t(x))), 
+                hclustfun= function(x) hclust(x, method="ave"),
+                scalefun = scale)
+
+
+heatmap.2(z$data,
+          Rowv=z$Rowv, 
+          Colv=z$Colv,
+          trace="none",
+          scale="none",
+          symbreaks = FALSE,
+          col=rev(colorRampPalette(brewer.pal(10, "RdBu"))(256)),
+          margins=c(4,7)
+          )
+```
+
+</div>
+
+
+
+
+
+
+<a href="#fig5eq" onclick="toggle_visibility('fig5eq');" style="color: #4e4e4e;">Fig. 5 equivalent (click to show/hide)</a> 
+<div id="fig5eq" style="display: none;" markdown="1">
+
+```{r, fig.cap="Fig. 5 equivalent"}
+x <- as.matrix(mtcars)
+z <- heat.clust(x,scaledim="column",zlim=c(-Inf,Inf),reorder=c("column","row"),
+                distfun  = function(x) as.dist(1-cor(t(x))), 
+                hclustfun= function(x) hclust(x, method="ave"),
+                scalefun = scale)
+
+
+heatmap.2(z$data,
+          Rowv=z$Rowv, 
+          Colv=z$Colv,
+          trace="none",
+          scale="none",
+          symbreaks = TRUE,
+          col=rev(colorRampPalette(brewer.pal(10, "RdBu"))(256)),
+          margins=c(4,7)
+          )
+```
+
+</div>
