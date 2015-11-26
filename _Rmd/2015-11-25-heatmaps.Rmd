@@ -329,6 +329,7 @@ heatmap.2(z$data,
 
  
 <a href="#fig2eq" onclick="toggle_visibility('fig2eq');" style="color: #4e4e4e;">Fig. 2 equivalent (click to show/hide)</a> 
+
 <div id="fig2eq" style="display: none;" markdown="1">
 
 ```{r, fig.cap="Fig. 2 equivalent"}
@@ -355,6 +356,7 @@ heatmap.2(z$data,
 
 
 <a href="#fig3eq" onclick="toggle_visibility('fig3eq');" style="color: #4e4e4e;">Fig. 3 equivalent (click to show/hide)</a> 
+
 <div id="fig3eq" style="display: none;" markdown="1">
 
 ```{r, fig.cap="Fig. 3 equivalent"}
@@ -382,6 +384,7 @@ heatmap.2(z$data,
 
 
 <a href="#fig4eq" onclick="toggle_visibility('fig4eq');" style="color: #4e4e4e;">Fig. 4 equivalent (click to show/hide)</a> 
+
 <div id="fig4eq" style="display: none;" markdown="1">
 
 ```{r, fig.cap="Fig. 4 equivalent"}
@@ -411,6 +414,7 @@ heatmap.2(z$data,
 
 
 <a href="#fig5eq" onclick="toggle_visibility('fig5eq');" style="color: #4e4e4e;">Fig. 5 equivalent (click to show/hide)</a> 
+
 <div id="fig5eq" style="display: none;" markdown="1">
 
 ```{r, fig.cap="Fig. 5 equivalent"}
