@@ -242,7 +242,7 @@ heatmap.2(z$data,
  
  
  
-Does look so bad right? Wrong! Compared to the last plot we did in the previous section you might think the clustering doesn't look that different.
+Doesn't look so bad right? Wrong! Compared to the last plot we did in the previous section you might think the clustering doesn't look that different.
 But lets look at what actually happened to the correlation matrix for the rows when the columns are not scaled.
 <br>
  
