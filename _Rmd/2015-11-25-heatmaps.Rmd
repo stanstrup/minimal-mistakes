@@ -164,7 +164,7 @@ heatmap.2(z$data,
 The parameters for ```heat.clust``` do the following:
 
 * scaledim: Selects to scale "column" or "row" or both (```scaledim = c("row","column")```).
-* zlim: Selects the limits of the data after scaling. Note that if you use anything else than unit variance scaling you should consider these limits. -3 to 3 probably doesn't make sense in any other case. You can disable the limits using.
+* zlim: Selects the limits of the data after scaling. Note that if you use anything else than unit variance scaling you should consider these limits. -3 to 3 probably doesn't make sense in any other case. You can disable the limits using ```c(-Inf,Inf)```.
 * zlim_select: Selects when to apply ```zlim```. For the dendrogram and/or for the outputted (scaled) data that is passed to ```heatmap.2```.
 * reorder: Selects if to reorder the dendrogram by "column" and/or "row" means.
 * distfun: The function for distance calculation.
