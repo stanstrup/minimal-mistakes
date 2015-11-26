@@ -298,6 +298,7 @@ In this section I replicate all the plots above so you can see exactly what each
 
  
 <a href="#fig1eq" onclick="toggle_visibility('fig1eq');" style="color: #4e4e4e;">Fig. 1 equivalent (click to show/hide)</a> 
+
 <div id="fig1eq" style="display: none;" markdown="1">
 
 ```{r, fig.cap="Fig. 1 equivalent"}
