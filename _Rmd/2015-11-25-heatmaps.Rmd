@@ -51,6 +51,7 @@ library(made4)
 x <- as.matrix(mtcars)
 heatplot(x,margins=c(4,7))
 ```
+<em><strong>Figure 1. </strong>Using heatplot defaults.</em>
 
 Yikes! This is not good for this data. This is because ```heatplot``` by default does row scaling only. Fair enough. Lets use column scaling instead.
 <br><br>
@@ -61,6 +62,7 @@ Yikes! This is not good for this data. This is because ```heatplot``` by default
 x <- as.matrix(mtcars)
 heatplot(x,scale="column",margins=c(4,7))
 ```
+<em><strong>Figure 2. </strong>Heatplot with column scaling for the heat data only.</em>
 
 Much better! But wait! Did you see it? The colors in the plot changed. But the dendrogram did not! It turns out that the ```scale``` argument only refers to the scaling of the heat data, NOT what happens to the scaling before calculation of the dendrograms.<br>
 So how is the data for the dendrogram actually scaled now??? It turns out that if you look at the code for the function ```dualScale``` it does NOT do what it says. ```dualScale``` applies row scaling before dendrogram calculations... And that is it. So now we have row scaling for the dendrograms and have *added* additional column scaling for the heat data. Hmmmm... not what we want either.<br>
@@ -71,6 +73,7 @@ So lets turn off the row scaling and we do the column scaling before we give the
 x <- scale(as.matrix(mtcars))
 heatplot(x,scale="none",dualScale=FALSE,margins=c(4,7))
 ```
+<em><strong>Figure 3. </strong>Column scaled data and then heatplot. No row scaling in heatplot.</em> 
  
 Good then. That seems better, all is well. Well... There is a thing more that probably did not work as you had thought but is not very visible in this case. <br>
 ```heatplot``` has the argument zlim which by default reassigns all values smaller than -3 and all values above 3 to -3 and 3 respectively. This makes a lot of sense when you use unit variance scaling. If you don't do that most of your values will be in the middle of the distribution which gives you very pale colors since only the very extreme values will use the full range of the color gradient.<br>
@@ -97,6 +100,7 @@ heatmap(x,
         hclustfun = function(x) hclust(x, method="ave")
         )
 ```
+<em><strong>Figure 4. </strong>Column scaled data and then heatmap. No other scaling.</em> 
 
 Oh no! Both dendrogram and the heat data is different. It turns out there are two reasons for this. For the dendrogram it turns out that ```heatplot``` uses the dendrogram directly whereas ```heatmap``` reorders the dendrogram based on row means. As far as I could find you cannot change this without calculating the dendrograms seperately.<br>
 
@@ -117,6 +121,7 @@ heatmap.2(x,
           margins=c(4,7)
           )
 ```
+<em><strong>Figure 5. </strong>Column scaled data and then heatmap.2. No other scaling.</em> 
 
 This looks similar to ```heatplot``` but ```heatmap.2``` reorders as above while ```heatplot```  does not.
 <br><br>
@@ -159,6 +164,7 @@ heatmap.2(z$data,
           margins=c(4,7)
           )
 ```
+<em><strong>Figure 6. </strong>Preparing data using heat.clust and then heatplot.2.</em> 
 
 <br>
 The parameters for ```heat.clust``` do the following:
@@ -208,7 +214,7 @@ heatmap.2(z$data,
           margins=c(4,7)
           )
 ```
-
+<em><strong>Figure 7. </strong>Preparing data using heat.clust with no scaling and then heatplot.2.</em> 
 
 We can clearly see that this is no good. Now if we do the same just with scaling for the heat data we get.
 <br>
@@ -239,7 +245,7 @@ heatmap.2(z$data,
           margins=c(4,7)
           )
 ```
- 
+<em><strong>Figure 8. </strong>Preparing data using heat.clust with no scaling and then heatplot.2 with column scaling of heat data.</em> 
  
  
 Doesn't look so bad right? Wrong! Compared to the last plot we did in the previous section you might think the clustering doesn't look that different.
@@ -256,8 +262,9 @@ library(corrplot)
 x <- as.matrix(mtcars)
 corrplot(cor(t(x)), method="color")
 ```
- 
-<br> 
+<em><strong>Figure 9. </strong>Correlation plot of rows in the mtcars data.</em>
+
+
 Dang! Everything is super correlated! And if you plot two rows against each other we see why.
 
 <br> 
@@ -266,10 +273,15 @@ Dang! Everything is super correlated! And if you plot two rows against each othe
  
 ```{r, fig.cap="Fig. 10"}
 x <- as.matrix(mtcars)
-
 plot(x[6,],x[7,])
+```
+<em><strong>Figure 10. </strong>Variable 7 vs. variable 6 of the mtcars data. Data not scaled.</em>
+
+
+```{r}
 cor(x[6,],x[7,])
 ```
+
 
 <br>
 Because the variables are on so different scales fitting a line through seems pretty linear and the correlation is high... <br>
@@ -278,13 +290,16 @@ But if we do the scaling we see the truth.
 
 <br>
 
-```{r, fig.cap="Fig. 10"}
+```{r, fig.cap="Fig. 11"}
 x <- scale(as.matrix(mtcars))
-
 plot(x[6,],x[7,])
+```
+<em><strong>Figure 11. </strong>Variable 7 vs. variable 6 of the mtcars data. Data column scaled first.</em>
+
+```{r}
 cor(x[6,],x[7,])
 ```
- 
+
 <br>
 Not correlated at all it turns out.
 
@@ -322,6 +337,7 @@ heatmap.2(z$data,
           margins=c(4,7)
           )
 ```
+<em><strong>Figure 1 equivalent. </strong>Using heat.clust and heatmap.2.</em>
 
 </div>
 
@@ -350,7 +366,7 @@ heatmap.2(z$data,
           margins=c(4,7)
           )
 ```
-
+<em><strong>Figure 2 equivalent. </strong>Using heat.clust and heatmap.2.</em>
 </div>
 
 
@@ -377,7 +393,7 @@ heatmap.2(z$data,
           margins=c(4,7)
           )
 ```
-
+<em><strong>Figure 3 equivalent. </strong>Using heat.clust and heatmap.2.</em>
 </div>
 
 
@@ -405,7 +421,7 @@ heatmap.2(z$data,
           margins=c(4,7)
           )
 ```
-
+<em><strong>Figure 4 equivalent. </strong>Using heat.clust and heatmap.2.</em>
 </div>
 
 
@@ -435,5 +451,5 @@ heatmap.2(z$data,
           margins=c(4,7)
           )
 ```
-
+<em><strong>Figure 5 equivalent. </strong>Using heat.clust and heatmap.2.</em>
 </div>
