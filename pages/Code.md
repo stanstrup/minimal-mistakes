@@ -36,7 +36,7 @@ ul {
 
 ## Shiny apps
 * [PredRet](https://github.com/stanstrup/PredRet): Retention time prediction.
-* [Mass decomposition](https://github.com/stanstrup/decompose_mass): Decompose mass to molecular fomulas and simulate isotopic patterns.
+* [Mass decomposition](https://github.com/stanstrup/decompose_mass): Decompose mass to molecular fomulas and simulate isotopic patterns. Live [here](http://predret.org/tools/mass-decomposition/).
 
 
 ## R Packages
