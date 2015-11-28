@@ -11,3 +11,4 @@ Gemfile.lock
 .Rproj.user
 _cache__packages
 _cacheunnamed-chunk-*
+.Rhistory
