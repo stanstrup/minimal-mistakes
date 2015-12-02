@@ -46,6 +46,7 @@ ul {
 * [chemhelper](https://github.com/stanstrup/chemhelper): A number of functions to help analyze metabolomics data processed with xcms/CAMERA.
 * [Auto Process Chemical Standards](https://github.com/stanstrup/APCS)
 * [convert.waters.raw](https://github.com/stanstrup/convert.waters.raw): Converts files from Waters .raw format to mzData.
+* [mwtabR](https://github.com/stanstrup/mwtabR): Parses mwtab data from Metabolomics Workbench.
 
 ### Data analysis
 * [massageR](https://github.com/stanstrup/massageR): Functions for data massaging in R.
