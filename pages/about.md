@@ -75,8 +75,7 @@ ORCID: [0000-0003-0541-7369](http://orcid.org/0000-0003-0541-7369)
             <td colspan="2" style="padding-top:1rem"><i>Keywords: LC-MS profiling, Statistical analysis of LC-MS data, Structure elucidation by MS/MS, Biological interpretation</i></td>
         </tr>
         <tr>
-            <td colspan="2" style="padding-top:1rem">Supervisor: Professor Lars Ove Dragsted<br>
-                                                     Co-supervisor: Professor Rasmus Bro
+            <td colspan="2" style="padding-top:1rem">Supervisor: Professor Lars Ove Dragsted
             </td>
         </tr>
     </table>
