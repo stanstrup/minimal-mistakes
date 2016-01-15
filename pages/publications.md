@@ -22,8 +22,9 @@ comments: true
 
 
 ### Nutritional metabolomics
+* Ulaszewska MM,Trost K,**Stanstrup J**, Tuohy KM, Franceschi P, Chong MF-F, George T, Minihane AM, Lovegrove JA, Mattivi F. **Urinary metabolomic profiling to identify biomarkers of a flavonoid-rich and flavonoid-poor fruits and vegetables diet in adults: the FLAVURS trial**. Metabolomics. 2016. <br> [Download here (paywalled)](http://dx.doi.org/10.1007/s11306-015-0935-z).
 * Jiang P, **Stanstrup J**, Thymann T, Sangild PT, Dragsted LO. **Progressive Changes in the Plasma Metabolome during Malnutrition in Juvenile Pigs.** J. Proteome Res. <br> [Download here (paywalled)](http://dx.doi.org/10.1021/acs.jproteome.5b00782).
-* **Stanstrup J**, Rasmussen JE, Ritz C, Holmer-Jensen J, Hermansen K, Dragsted LO. **Intakes of whey protein hydrolysate and whole whey proteins are discriminated by LC–MS. Metabolomics.** 2013;10(4):719–36. <br> [Download here (paywalled)](http://dx.doi.org/10.1007/s11306-013-0607-9).
+* **Stanstrup J**, Rasmussen JE, Ritz C, Holmer-Jensen J, Hermansen K, Dragsted LO. **Intakes of whey protein hydrolysate and whole whey proteins are discriminated by LC–MS.** Metabolomics. 2013;10(4):719–36. <br> [Download here (paywalled)](http://dx.doi.org/10.1007/s11306-013-0607-9).
 * **Stanstrup J**, Schou SS, Holmer-Jensen J, Hermansen K, Dragsted LO. **Whey protein delays gastric emptying and suppresses plasma fatty acids and their metabolites compared to casein, gluten and fish protein.** J. Proteome Res., 2014;13(5):2396–408. <br> [Download here (paywalled)](http://dx.doi.org/10.1021/pr401214w).
 * Trost K, Ulaszewska M, **Stanstrup J**, Natella F, Scaccini C, Mattivi F. **PP163-MON: Metabolic Transformation of Apple Polyphenols in Human Body**. Clin. Nutr. <br> [Download here (paywalled)](http://dx.doi.org/10.1016/S0261-5614%2814%2950497-9).
 
