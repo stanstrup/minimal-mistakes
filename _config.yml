@@ -16,7 +16,7 @@ url:              http://stanstrup.github.io
    scope:
      type: posts
    values:
-     permalink: /:title/
+     permalink: /:title
      
 
 markdown:    kramdown
