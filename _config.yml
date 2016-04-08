@@ -7,7 +7,7 @@ url:              http://stanstrup.github.io
 
 # Jekyll configuration
  defaults:
-  -  
+  -   
    scope:
      type: pages
    values:
