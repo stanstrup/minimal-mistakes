@@ -31,7 +31,7 @@ comments: true
 
 ## Teaching material
 
-#### Introduction to Nutritional Metabolomics. 2016.
+#### Compound identification. *Introduction to Nutritional Metabolomics. 2016.*
 
 * [Course material](../material/teaching/2016_ID_NEXS/Material.pptx)
   * [Isotopic pattern helper files](../material/teaching/2016_ID_NEXS/Isotopic_pattern_helpers.zip)
