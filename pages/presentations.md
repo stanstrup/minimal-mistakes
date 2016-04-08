@@ -30,15 +30,18 @@ comments: true
 <br>
 
 ## Teaching material
-#### **Introduction to Nutritional Metabolomics. 2016.**
-  * [Course material](../material/teaching/2016_ID_NEXS/Material.pptx)
-    * [Isotopic pattern helper files](../material/teaching/2016_ID_NEXS/Isotopic_pattern_helpers.zip)
-  * [Slides](../material/teaching/2016_ID_NEXS/compound_id.pptx)
-  * [Exercise 2](../material/teaching/2016_ID_NEXS/compound_id - ex2.pptx)
-    * [Simulated spectra](../material/teaching/2016_ID_NEXS/ex2.zip)
-  * [Exercise 3 - Part 1](../material/teaching/2016_ID_NEXS/compound_id - ex3-part1.pptx)
-  * [Exercise 3 - Part 2](../material/teaching/2016_ID_NEXS/compound_id - ex3-part2.pptx)
-    * [Data file](../material/teaching/2016_ID_NEXS/ex3.zip)
+
+#### Introduction to Nutritional Metabolomics. 2016.
+
+* [Course material](../material/teaching/2016_ID_NEXS/Material.pptx)
+  * [Isotopic pattern helper files](../material/teaching/2016_ID_NEXS/Isotopic_pattern_helpers.zip)
+* [Slides](../material/teaching/2016_ID_NEXS/compound_id.pptx)
+* [Exercise 2](../material/teaching/2016_ID_NEXS/compound_id - ex2.pptx)
+  * [Simulated spectra](../material/teaching/2016_ID_NEXS/ex2.zip)
+* [Exercise 3 - Part 1](../material/teaching/2016_ID_NEXS/compound_id - ex3-part1.pptx)
+  * [Data file](../material/teaching/2016_ID_NEXS/ex3.zip)
+* [Exercise 3 - Part 2](../material/teaching/2016_ID_NEXS/compound_id - ex3-part2.pptx)
+
 
 
 
