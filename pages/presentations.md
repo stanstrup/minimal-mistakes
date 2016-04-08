@@ -19,7 +19,6 @@ comments: true
 * **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems. *(Metabolomics Society Travel award)*.** 2015. Metabolomics Society 2015 Conference. San Francisco. <br> [Download poster](../material/presentations/Metabolomics_2015_Jan_Stanstrup.pdf).
 * **Stanstrup J**, Vrhovšek U. **Comprehensive sharing and mapping of RPLC retention time information**. 2014. AISBM 2014 - Challenges in annotation and de novo identification of small molecules, Gif-sur-Yvette. <br> [Download poster and abstract](../material/presentations/AISBM_2014_jan_stanstrup.pdf).
 * **Stanstrup J**, Rago D, Holmer-Jensen J, Hermansen K, Dragsted LO. **Dairy proteins’ effect on metabolism in obese non-diabetics.** 2011. Metabomeeting 2011, Helsinki. <br> [Download poster](../material/presentations/metabomeeting_2011_jan_stanstrup.pdf).
-{% comment %} *  These commments will not include inside the source. {% endcomment %}
 
 ### Other presentations
 * Jiang P, Barri T, Jensen ML, Wan JMF, **Stanstrup J**, Dragsted LO, Sangild PT. 2011. **Urine metabolome of preterm neonates with treatment of antibiotics.** Metabomeeting 2011, Helsinki.
