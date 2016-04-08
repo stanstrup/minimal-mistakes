@@ -23,9 +23,9 @@ comments: true
 
 
 ### Contributions to other presentations
-* Jiang P, Barri T, Jensen ML, Wan JMF, **Stanstrup J**, Dragsted LO, Sangild PT. 2011. **Urine metabolome of preterm neonates with treatment of antibiotics.** Metabomeeting 2011, Helsinki.
+* Jiang P, Barri T, Jensen ML, Wan JMF, **Stanstrup J**, Dragsted LO, Sangild PT. 2011. **Urine metabolome of preterm neonates with treatment of antibiotics.** 2011. Metabomeeting 2011, Helsinki.
 * Lemut MS, Sivilotti P, Zorer R, Zulini L, **Stanstrup J**, Vrhovšek U. **Untargeted metabolomics as a tool to study grapevine biosynthetic behaviour in the relation with purposely-induced and monitored microclimate modifications in Pinot noir vineyards.**. 2014. Macrowine 2014.
-* Whitener MEB, **Stanstrup J**, Panzeri V, Carlin S, Divol B, Du Toit M, Vrhovšek U. **Unraveling the effects of non-Saccharomyces yeasts on Sauvignon Blanc aroma profiles; A top-down metabolomics approach complemented by sensory analysis.**. 2015. YEAST 2015.
+* Whitener MEB, **Stanstrup J**, Panzeri V, Carlin S, Divol B, Du Toit M, Vrhovšek U. **Unraveling the effects of non-Saccharomyces yeasts on Sauvignon Blanc aroma profiles; A top-down metabolomics approach complemented by sensory analysis.** 2015. YEAST 2015.
 
 <br>
 
