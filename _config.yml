@@ -7,7 +7,7 @@ url:              http://stanstrup.github.io
 
 # Jekyll configuration
 
-permalink:   /:title/
+permalink:   /:title:output_ext/
 markdown:    kramdown
 highlighter: rouge
 sass:
