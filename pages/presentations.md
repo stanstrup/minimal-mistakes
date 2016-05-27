@@ -31,6 +31,10 @@ comments: true
 
 ## Teaching material
 
+#### Compound identification. *From features to compounds: How to get started and move forward. Metabolomics Society EMN Webinar 2016.*
+* [Slides](../material/presentations/2016_Stanstrup_webinar_compound_id_intro.pptx)
+
+
 #### Compound identification. *Introduction to Nutritional Metabolomics. 2016.*
 
 * [Course material](../material/teaching/2016_ID_NEXS/Material.pptx)
