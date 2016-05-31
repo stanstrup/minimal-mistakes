@@ -159,6 +159,7 @@ ORCID: [0000-0003-0541-7369](http://orcid.org/0000-0003-0541-7369)
 
 | Year | Activity                                                  | Role                |
 |------|-----------------------------------------------------------|---------------------|
+| 2016 | Introduction to Nutritional Metabolomics                  | Lecture			 |
 | 2012 | Bioactive Components and Health                           | Course coordinator  |
 | 2010 | Introduction to Human Nutrition                           | Co-coordinator      |
 | 2012 | Nutritional Study Design and Status Assessment            | Lecture             |
