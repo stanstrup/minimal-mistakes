@@ -2,7 +2,7 @@
 layout: page
 title: About Me
 tags: [ stanstrup ]
-modified: Thu, Nov 19, 2015 8:16 PM
+modified: Tue, May 31, 2016 8:18 PM
 comments: true
 #image:
   #feature: # image here
@@ -48,9 +48,17 @@ ORCID: [0000-0003-0541-7369](http://orcid.org/0000-0003-0541-7369)
 
 <div id="work"  style="display: none;">
 
+	<table>
+        <tr style="font-weight: bold;">
+            <td class="td_nowrap">Mar 2016 - present</td>
+            <td>Research Scientist - Systems Medicine, Steno Diabetes Center, Gentofte, Denmark.
+            </td>
+        </tr>
+    </table>
+
     <table>
         <tr style="font-weight: bold;">
-            <td class="td_nowrap">Mar 2014 - present</td>
+            <td class="td_nowrap">Mar 2014 - Feb 2016</td>
             <td>PostDoc - Department of Food Quality and Nutrition, Research and Innovation Centre, Fondazione Edmund Mach (FEM), San Michele all’Adige.<br>
         Scholarship from Villum Fonden.
         </td>
