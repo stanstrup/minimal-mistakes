@@ -11,15 +11,15 @@ comments: true
 ## Conference presentations
 
 ### Orals
-* **Stanstrup J**, Neumann S, Vrhovšek U. **The Role of Retention Time in Untargeted Metabolomics.** 2015. II International Symposium on Profiling. Lisbon. <br> [Download slides](../material/presentations/ISPROF_2015_jan_stanstrup.pdf).
-* **Stanstrup J**, Dragsted LO, Neumann S. **Approaches for the Rapid Processing & Annotation of Mass Spectrometry Data.** 2013. Metabolomics Society 2013 Conference, Glasgow. <br> [Download powerpoint](../material/presentations/Metabolomics_Society_Conference 2013_no_notes_Jan_Stanstrup.pptx).
+* **Stanstrup J**, Neumann S, Vrhovšek U. **The Role of Retention Time in Untargeted Metabolomics.** 2015. II International Symposium on Profiling. Lisbon. <br> [Download slides](https://github.com/stanstrup/stanstrup.github.io/raw/master/material/presentations/ISPROF_2015_jan_stanstrup.pdf?raw=true).
+* **Stanstrup J**, Dragsted LO, Neumann S. **Approaches for the Rapid Processing & Annotation of Mass Spectrometry Data.** 2013. Metabolomics Society 2013 Conference, Glasgow. <br> [Download powerpoint](https://github.com/stanstrup/stanstrup.github.io/raw/master/material/presentations/Metabolomics_Society_Conference%202013_no_notes_Jan_Stanstrup.pptx?raw=true).
 
 
 ### Posters
-* **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems.** 2015. Metabomeeting 2015. Cambridge.<br> [Download poster](../material/presentations/2015_metabomeeting_Jan_Stanstrup.pdf).
-* **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems. *(Metabolomics Society Travel award)*.** 2015. Metabolomics Society 2015 Conference. San Francisco. <br> [Download poster](../material/presentations/Metabolomics_2015_Jan_Stanstrup.pdf).
-* **Stanstrup J**, Vrhovšek U. **Comprehensive sharing and mapping of RPLC retention time information**. 2014. AISBM 2014 - Challenges in annotation and de novo identification of small molecules, Gif-sur-Yvette. <br> [Download poster and abstract](../material/presentations/AISBM_2014_jan_stanstrup.pdf).
-* **Stanstrup J**, Rago D, Holmer-Jensen J, Hermansen K, Dragsted LO. **Dairy proteins’ effect on metabolism in obese non-diabetics.** 2011. Metabomeeting 2011, Helsinki. <br> [Download poster](../material/presentations/metabomeeting_2011_jan_stanstrup.pdf).
+* **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems.** 2015. Metabomeeting 2015. Cambridge.<br> [Download poster](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/Metabolomics_2015_Jan_Stanstrup.pdf?raw=true).
+* **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems. *(Metabolomics Society Travel award)*.** 2015. Metabolomics Society 2015 Conference. San Francisco. <br> [Download poster](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/Metabolomics_2015_Jan_Stanstrup.pdf?raw=true).
+* **Stanstrup J**, Vrhovšek U. **Comprehensive sharing and mapping of RPLC retention time information**. 2014. AISBM 2014 - Challenges in annotation and de novo identification of small molecules, Gif-sur-Yvette. <br> [Download poster and abstract](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/AISBM_2014_jan_stanstrup.pdf?raw=true).
+* **Stanstrup J**, Rago D, Holmer-Jensen J, Hermansen K, Dragsted LO. **Dairy proteins’ effect on metabolism in obese non-diabetics.** 2011. Metabomeeting 2011, Helsinki. <br> [Download poster](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/metabomeeting_2011_jan_stanstrup.pdf?raw=true).
 
 
 ### Contributions to other presentations
@@ -37,14 +37,14 @@ comments: true
 
 #### Compound identification. *Introduction to Nutritional Metabolomics. 2016.*
 
-* [Course material](../material/teaching/2016_ID_NEXS/Material.pptx)
-  * [Isotopic pattern helper files](../material/teaching/2016_ID_NEXS/Isotopic_pattern_helpers.zip)
-* [Slides](../material/teaching/2016_ID_NEXS/compound_id.pptx)
-* [Exercise 2](../material/teaching/2016_ID_NEXS/compound_id - ex2.pptx)
-  * [Simulated spectra](../material/teaching/2016_ID_NEXS/ex2.zip)
-* [Exercise 3 - Part 1](../material/teaching/2016_ID_NEXS/compound_id - ex3-part1.pptx)
-  * [Data file](../material/teaching/2016_ID_NEXS/ex3.zip)
-* [Exercise 3 - Part 2](../material/teaching/2016_ID_NEXS/compound_id - ex3-part2.pptx)
+* [Course material](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/Material.pptx?raw=true)
+  * [Isotopic pattern helper files](../material/teaching/2016_ID_NEXS/Isotopic_pattern_helpers.zip?raw=true)
+* [Slides](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id.pptx?raw=true)
+* [Exercise 2](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex2.pptx?raw=true)
+  * [Simulated spectra](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/ex2.zip?raw=true)
+* [Exercise 3 - Part 1](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex3-part1.pptx?raw=true)
+  * [Data file](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/ex3.zip?raw=true)
+* [Exercise 3 - Part 2](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex3-part2.pptx?raw=true)
 
 
 
