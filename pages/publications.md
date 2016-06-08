@@ -12,7 +12,7 @@ comments: true
 ## Metabolomics
 
 ### Metabolomics techniques
-* **Jan Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems.** Anal. Chem. 2015; 87(18):9421–9428. <br> [Download paper](https://github.com/stanstrup/stanstrup.github.io/raw/master/material/papers/Stanstrup%2C%20Neumann%2C%20Vrhovsek%20-%202015%20-%20PredRet%20Prediction%20of%20Retention%20Time%20by%20Direct%20Mapping%20between%20Multiple%20Chromatographic%20Systems.pdf?raw=true).
+* **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems.** Anal. Chem. 2015; 87(18):9421–9428. <br> [Download paper](https://github.com/stanstrup/stanstrup.github.io/raw/master/material/papers/Stanstrup%2C%20Neumann%2C%20Vrhovsek%20-%202015%20-%20PredRet%20Prediction%20of%20Retention%20Time%20by%20Direct%20Mapping%20between%20Multiple%20Chromatographic%20Systems.pdf?raw=true).
 * **Stanstrup J**. **Metabolomics investigation of whey intake: Discovery of markers and biological effects supported by a computer-assisted compound identification pipeline.** 2014. *PhD Thesis.*  <br> [Download thesis](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/thesis/Jan_Stanstrup_PhD_thesis.pdf?raw=true).
 * **Stanstrup J**, Gerlich M, Dragsted LO, Neumann S. **Metabolite Profiling and beyond: Approaches for the rapid processing and annotation of human blood serum mass spectrometry data.** Anal. Bioanal. Chem. 2013; 405(15):5037–48.  <br> [Download here (paywalled)](http://dx.doi.org/10.1007/s00216-013-6954-6).
 
