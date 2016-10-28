@@ -55,7 +55,7 @@ comments: true
 * [Slides](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/2016_Stanstrup_webinar_compound_id_intro.pptx?raw=true)
 
 #### Compound Annotation
-*NugoWeek 2016*
+*NuGOweek 2016*
 
 * [Intro](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/nugoweek_intro.pptx?raw=true)
 * [Annotation](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/nugoweek_compound_id.pptx?raw=true)
