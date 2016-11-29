@@ -38,7 +38,7 @@ img + em {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    vertical-align: middle;
+    vertical-align: baseline;
     border-radius: .25em
 }
 a.label:focus,
@@ -109,18 +109,22 @@ a.label:hover {
 /* Make text links in default and primary labels white */
 .label-default > a, .label-primary > a {
     color: white;
+	vertical-align: middle;
 }
 
 /* Make text links in default and primary labels white */
 .label-default > a, .label-warning > a {
     color: white;
+	vertical-align: middle;
 }
 
 /* Make text links in default and primary labels white */
 .label-default > a, .label-success > a {
     color: white;
+	vertical-align: middle;
 }
 
 .label-default > a, .label-info > a {
     color: white;
+	vertical-align: middle;
 }
