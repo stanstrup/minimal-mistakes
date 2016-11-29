@@ -10,10 +10,6 @@ comments: true
   #creditlink: # URL here
 ---
 
-
-Something about me.
-
-
 <style type='text/css'>
 td.td_nowrap {
 	white-space: nowrap;
@@ -26,8 +22,6 @@ h2 {
 }
 </style>
 
-
-## Contact and social networks
 <a href="https://scholar.google.it/citations?user=Gw554E8AAAAJ&hl=en" title="Google Scholar" class="fa"><i class="ai ai-2x ai-google-scholar"></i></a>
 <a href="https://github.com/stanstrup" title="GitHub" class="fa"><i class="fa fa-2x fa-github"></i></a>
 <a href="https://twitter.com/JanStanstrup" title="Twitter" class="fa"><i class="fa fa-2x fa-twitter"></i></a>
@@ -37,6 +31,8 @@ h2 {
 
 <script language="JavaScript">var username = "stanstrup";var hostname = "gmail.com";var linktext = username + "@" + hostname ;document.write("E-mail: <a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");</script>
 
+<br>
+Something about me.
 
 
 <h2> Work </h2>

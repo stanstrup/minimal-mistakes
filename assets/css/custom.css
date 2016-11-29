@@ -127,6 +127,7 @@ a.label:hover {
 
 a.fa {
     color: #337ab7;
+	padding-right: 1em;
 }
 
 a:visited.fa {
