@@ -38,7 +38,7 @@ img + em {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    vertical-align: baseline;
+    vertical-align: middle;
     border-radius: .25em
 }
 a.label:focus,
