@@ -28,20 +28,20 @@ h2 {
 
 
 ## Contact and social networks
+<a href="https://scholar.google.it/citations?user=Gw554E8AAAAJ&hl=en" title="Google Scholar" class="fa"><i class="ai ai-2x ai-google-scholar"></i></a>
+
+<a href="https://github.com/stanstrup" title="GitHub" class="fa"><i class="fa fa-2x fa-github"></i></a>
+
+<a href="https://twitter.com/JanStanstrup" title="Twitter" class="fa"><i class="fa fa-2x fa-twitter"></i></a>
+
+<a href="https://orcid.org/0000-0003-0541-7369" title="ORCiD" class="fa"><i class="ai ai-2x ai-orcid"></i></a>
+
+<a href="https://www.linkedin.com/in/jan-stanstrup-85421614" title="LinkedIn" class="fa"><i class="fa fa-2x fa-linkedin"></i></a>
+
+<a href="https://www.researchgate.net/profile/Jan_Stanstrup" title="Researchgate" class="fa"><i class="ai ai-2x ai-researchgate"></i></a>
 
 <script language="JavaScript">var username = "stanstrup";var hostname = "gmail.com";var linktext = username + "@" + hostname ;document.write("E-mail: <a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");</script>
 <br>
-<a href="https://github.com/stanstrup" title="GitHub" class="fa"><i class="fa fa-2x fa-github"></i></a>
-<br>
-Twitter: [@JanStanstrup](https://twitter.com/JanStanstrup)<br>
-Linkedin: [jan-stanstrup](https://www.linkedin.com/in/jan-stanstrup-85421614)<br>
-Researchgate: [Jan_Stanstrup](https://www.researchgate.net/profile/Jan_Stanstrup)
-<br>
-<a href="https://scholar.google.it/citations?user=Gw554E8AAAAJ&hl=en" title="Google Scholar"><i class="ai ai-2x ai-google-scholar"></i></a>
-<br>
-ORCID: [0000-0003-0541-7369](http://orcid.org/0000-0003-0541-7369)
-
-
 
 
 
