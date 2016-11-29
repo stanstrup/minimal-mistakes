@@ -30,12 +30,15 @@ h2 {
 ## Contact and social networks
 
 <script language="JavaScript">var username = "stanstrup";var hostname = "gmail.com";var linktext = username + "@" + hostname ;document.write("E-mail: <a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");</script>
-<a href="https://github.com/stanstrup" title="GitHub"><i class="fa fa-2x fa-github"></i></a>
-Github: [stanstrup](https://github.com/stanstrup)<br>
+<br>
+<a href="https://github.com/stanstrup" title="GitHub" class="fa"><i class="fa fa-2x fa-github"></i></a>
+<br>
 Twitter: [@JanStanstrup](https://twitter.com/JanStanstrup)<br>
 Linkedin: [jan-stanstrup](https://www.linkedin.com/in/jan-stanstrup-85421614)<br>
-Researchgate: [Jan_Stanstrup](https://www.researchgate.net/profile/Jan_Stanstrup)<br>
-Google scholar: [Gw554E8AAAAJ](https://scholar.google.it/citations?user=Gw554E8AAAAJ&hl=en)<br>
+Researchgate: [Jan_Stanstrup](https://www.researchgate.net/profile/Jan_Stanstrup)
+<br>
+<a href="https://scholar.google.it/citations?user=Gw554E8AAAAJ&hl=en" title="Google Scholar"><i class="ai ai-2x ai-google-scholar"></i></a>
+<br>
 ORCID: [0000-0003-0541-7369](http://orcid.org/0000-0003-0541-7369)
 
 
