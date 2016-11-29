@@ -30,6 +30,7 @@ h2 {
 ## Contact and social networks
 
 <script language="JavaScript">var username = "stanstrup";var hostname = "gmail.com";var linktext = username + "@" + hostname ;document.write("E-mail: <a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");</script>
+<a href="https://github.com/stanstrup" title="GitHub"><i class="fa fa-2x fa-github"></i></a>
 Github: [stanstrup](https://github.com/stanstrup)<br>
 Twitter: [@JanStanstrup](https://twitter.com/JanStanstrup)<br>
 Linkedin: [jan-stanstrup](https://www.linkedin.com/in/jan-stanstrup-85421614)<br>
