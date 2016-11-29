@@ -125,10 +125,10 @@ a.label:hover {
 	vertical-align: middle;
 }
 
-.fa > a {
+a.fa {
     color: #337ab7;
 }
 
-.fa > a {
+a:visited.fa {
     color: #0645AD;
 }
