@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: Jan Stanstrup
 tags: [ stanstrup ]
 modified: Tue, May 31, 2016 8:18 PM
 comments: true
