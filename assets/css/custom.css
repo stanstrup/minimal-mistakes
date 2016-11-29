@@ -100,10 +100,6 @@ a.label:hover {
 
 
 
-
-
-
-
 /* From Tom Wilson */
 
 /* Make text links in default and primary labels white */
@@ -127,4 +123,12 @@ a.label:hover {
 .label-default > a, .label-info > a {
     color: white;
 	vertical-align: middle;
+}
+
+.fa > a {
+    color: #337ab7;
+}
+
+.fa > a {
+    color: #0645AD;
 }
