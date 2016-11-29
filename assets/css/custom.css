@@ -25,7 +25,9 @@ img + em {
     font-size: 1.2rem;
 }
 
-# From Tom Wilson
+
+/* From Tom Wilson */
+
 /* Make text links in default and primary labels white */
 .label-default > a, .label-primary > a {
     color: white;
