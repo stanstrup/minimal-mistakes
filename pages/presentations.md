@@ -40,6 +40,10 @@ comments: true
 
 ## Contributions to other presentations
 
+<a href="#pres_contrib" onclick="toggle_visibility('work');" style="color: #4e4e4e;">(click to show/hide)</a>
+
+<div id="pres_contrib"  style="display: none;">
+
 * Suklje K, Carlin S, Blackman JW, **Stanstrup J**, Antalick G, Meeks C, Deloire A, Vrhovšek U, Schmidtke LM. **Grape Maturity Alters Wine Volatiles: Analytical and Sensory Approach.**<br>2016. Australian Wine Industry Techincal Conference & Trade Exhibition, Adelaide.
 * Koutsos A, Ulaszewska M, Fava F, **Stanstrup J**, Trost K, Mariani L, Galvin A, Braune T, Mattivi F, Lovegrove JA, Tuohy K. **Can 2 Apples a Day Decrease Cholesterol and Modulate the Gut Microbiome in Mildly Hypercholesterolae.**<br>2016. Metabolomics Society 2016 Conference. Dublin.
 * Suklje K, Carlin S, **Stanstrup J**, Antalick G, Deloire A, Vrhovšek U, Schmidtke LM. **Two dimensional gas chromatography: a powerful tool to unravel wine volatiles.**<br>2016.  13th GCxGC Symposium, Riva del Garda.
@@ -49,6 +53,8 @@ comments: true
 * Whitener MEB, **Stanstrup J**, Panzeri V, Carlin S, Divol B, Du Toit M, Vrhovšek U. **Unraveling the effects of non-Saccharomyces yeasts on Sauvignon Blanc aroma profiles; A top-down metabolomics approach complemented by sensory analysis.**<br>2015. YEAST 2015.
 * Lemut MS, Sivilotti P, Zorer R, Zulini L, **Stanstrup J**, Vrhovšek U. **Untargeted metabolomics as a tool to study grapevine biosynthetic behaviour in the relation with purposely-induced and monitored microclimate modifications in Pinot noir vineyards.**.<br>2014. Macrowine 2014.
 * Jiang P, Barri T, Jensen ML, Wan JMF, **Stanstrup J**, Dragsted LO, Sangild PT. 2011. **Urine metabolome of preterm neonates with treatment of antibiotics.**<br>2011. Metabomeeting 2011, Helsinki.
+
+</div>
 
 <br>
 
