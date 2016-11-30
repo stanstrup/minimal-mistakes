@@ -102,6 +102,12 @@ a.label:hover {
 
 /* From Tom Wilson */
 
+/* Style for the line with paper/thesis/patent award information */
+.award {
+	font-weight: bold;
+	color: red;
+}
+
 /* Make text links in default and primary labels white */
 .label-default > a, .label-primary > a {
     color: white;
