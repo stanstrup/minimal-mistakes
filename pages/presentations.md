@@ -36,6 +36,8 @@ comments: true
 <span class="label label-success"><a>Poster</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/metabomeeting_2011_jan_stanstrup.pdf?raw=true">PDF</a></span>
 
+<br>
+
 ## Contributions to other presentations
 
 * Suklje K, Carlin S, Blackman JW, **Stanstrup J**, Antalick G, Meeks C, Deloire A, Vrhovšek U, Schmidtke LM. **Grape Maturity Alters Wine Volatiles: Analytical and Sensory Approach.**<br>2016. Australian Wine Industry Techincal Conference & Trade Exhibition, Adelaide.
