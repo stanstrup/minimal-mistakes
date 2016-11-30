@@ -52,14 +52,14 @@ comments: true
 
 ## Teaching material
 
-* From features to compounds: *How to get started and move forward*<br>Metabolomics Society EMN Webinar 2016
+* **From features to compounds: *How to get started and move forward***<br>Metabolomics Society EMN Webinar 2016
 <br>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/2016_Stanstrup_webinar_compound_id_intro.pptx?raw=true">PDF</a></span>
-* Compound Annotation<br>NuGOweek 2016
+* **Compound Annotation**<br>NuGOweek 2016
 <br>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/nugoweek_intro.pptx?raw=true">Intro</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/nugoweek_compound_id.pptx?raw=true">Annotation</a></span>
-* Compound identification<br>Introduction to Nutritional Metabolomics. 2016
+* **Compound identification**<br>Introduction to Nutritional Metabolomics. 2016
 <br>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/Material.pptx?raw=true">Course material</a></span>
 <span class="label label-warning"><a href="../material/teaching/2016_ID_NEXS/Isotopic_pattern_helpers.zip?raw=true">Isotopic pattern helper files</a></span>
