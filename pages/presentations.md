@@ -109,11 +109,11 @@ h2 {
 <span class="label label-warning"><a href="../material/teaching/2016_ID_NEXS/Isotopic_pattern_helpers.zip?raw=true">Isotopic pattern helper files</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id.pptx?raw=true">Slides</a></span>
 <br>
-<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex2.pptx?raw=true">Exercise 2</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex2.pptx?raw=true">Exercise 2 - Slides</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/ex2.zip?raw=true">Exercise 2 - Simulated spectra</a></span>
-<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex3-part1.pptx?raw=true">Exercise 3 - Part 1</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex3-part1.pptx?raw=true">Exercise 3 - Part 1 - Slides</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/ex3.zip?raw=true">Exercise 3 - Data file</a></span>
-<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex3-part2.pptx?raw=true">Exercise 3 - Part 2</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex3-part2.pptx?raw=true">Exercise 3 - Part 2 - Slides</a></span>
 
 
 
