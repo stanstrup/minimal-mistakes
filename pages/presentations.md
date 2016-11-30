@@ -22,10 +22,12 @@ comments: true
 <br>
 <span class="label label-success"><a>Poster</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/Metabolomics_2015_Jan_Stanstrup.pdf?raw=true">PDF</a></span>
-* **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems. *(Metabolomics Society Travel award)*.** 2015. Metabolomics Society 2015 Conference. San Francisco.
+* **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems.** 2015. Metabolomics Society 2015 Conference. San Francisco.
 <br>
 <span class="label label-success"><a>Poster</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/Metabolomics_2015_Jan_Stanstrup.pdf?raw=true">PDF</a></span>
+<br>
+<span class="award"><i class="fa fa-trophy"></i> Metabolomics Society Travel award</span>
 * **Stanstrup J**, Vrhovšek U. **Comprehensive sharing and mapping of RPLC retention time information**. 2014. AISBM 2014 - Challenges in annotation and de novo identification of small molecules, Gif-sur-Yvette. <br>
 <span class="label label-success"><a>Poster</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/AISBM_2014_jan_stanstrup.pdf?raw=true">PDF</a></span>
