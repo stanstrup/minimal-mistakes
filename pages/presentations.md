@@ -10,17 +10,29 @@ comments: true
 
 ## Conference presentations
 
-### Orals
-* **Stanstrup J**, Neumann S, Vrhovšek U. **The Role of Retention Time in Untargeted Metabolomics.** 2015. II International Symposium on Profiling. Lisbon. <br> [Download slides](https://github.com/stanstrup/stanstrup.github.io/raw/master/material/presentations/ISPROF_2015_jan_stanstrup.pdf?raw=true).
-* **Stanstrup J**, Dragsted LO, Neumann S. **Approaches for the Rapid Processing & Annotation of Mass Spectrometry Data.** 2013. Metabolomics Society 2013 Conference, Glasgow. <br> [Download powerpoint](https://github.com/stanstrup/stanstrup.github.io/raw/master/material/presentations/Metabolomics_Society_Conference%202013_no_notes_Jan_Stanstrup.pptx?raw=true).
-
-
-### Posters
-* **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems.** 2015. Metabomeeting 2015. Cambridge.<br> [Download poster](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/Metabolomics_2015_Jan_Stanstrup.pdf?raw=true).
-* **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems. *(Metabolomics Society Travel award)*.** 2015. Metabolomics Society 2015 Conference. San Francisco. <br> [Download poster](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/Metabolomics_2015_Jan_Stanstrup.pdf?raw=true).
-* **Stanstrup J**, Vrhovšek U. **Comprehensive sharing and mapping of RPLC retention time information**. 2014. AISBM 2014 - Challenges in annotation and de novo identification of small molecules, Gif-sur-Yvette. <br> [Download poster and abstract](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/AISBM_2014_jan_stanstrup.pdf?raw=true).
-* **Stanstrup J**, Rago D, Holmer-Jensen J, Hermansen K, Dragsted LO. **Dairy proteins’ effect on metabolism in obese non-diabetics.** 2011. Metabomeeting 2011, Helsinki. <br> [Download poster](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/metabomeeting_2011_jan_stanstrup.pdf?raw=true).
-
+* **Stanstrup J**, Neumann S, Vrhovšek U. **The Role of Retention Time in Untargeted Metabolomics.** 2015. II International Symposium on Profiling. Lisbon.
+<br>
+<span class="label label-info"><a>Oral</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/raw/master/material/presentations/ISPROF_2015_jan_stanstrup.pdf?raw=true">Slides</a></span>
+* **Stanstrup J**, Dragsted LO, Neumann S. **Approaches for the Rapid Processing & Annotation of Mass Spectrometry Data.** 2013. Metabolomics Society 2013 Conference, Glasgow.
+<br>
+<span class="label label-info"><a>Oral</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/raw/master/material/presentations/Metabolomics_Society_Conference%202013_no_notes_Jan_Stanstrup.pptx?raw=true">Slides</a></span>
+* **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems.** 2015. Metabomeeting 2015. Cambridge.
+<br>
+<span class="label label-success"><a>Poster</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/Metabolomics_2015_Jan_Stanstrup.pdf?raw=true">PDF</a></span>
+* **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems. *(Metabolomics Society Travel award)*.** 2015. Metabolomics Society 2015 Conference. San Francisco.
+<br>
+<span class="label label-success"><a>Poster</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/Metabolomics_2015_Jan_Stanstrup.pdf?raw=true">PDF</a></span>
+* **Stanstrup J**, Vrhovšek U. **Comprehensive sharing and mapping of RPLC retention time information**. 2014. AISBM 2014 - Challenges in annotation and de novo identification of small molecules, Gif-sur-Yvette. <br>
+<span class="label label-success"><a>Poster</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/AISBM_2014_jan_stanstrup.pdf?raw=true">PDF</a></span>
+* **Stanstrup J**, Rago D, Holmer-Jensen J, Hermansen K, Dragsted LO. **Dairy proteins’ effect on metabolism in obese non-diabetics.** 2011. Metabomeeting 2011, Helsinki.
+<br>
+<span class="label label-success"><a>Poster</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/metabomeeting_2011_jan_stanstrup.pdf?raw=true">PDF</a></span>
 
 ### Contributions to other presentations
 
