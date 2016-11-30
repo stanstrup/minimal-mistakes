@@ -50,7 +50,12 @@ h2 {
 
 <div id="pres_contrib"  style="display: none;">
 
-* Suklje K, Carlin S, Blackman JW, **Stanstrup J**, Antalick G, Meeks C, Deloire A, Vrhovšek U, Schmidtke LM. **Grape Maturity Alters Wine Volatiles: Analytical and Sensory Approach.**<br>2016. Australian Wine Industry Techincal Conference & Trade Exhibition, Adelaide.
+<ul>
+	<li>
+Suklje K, Carlin S, Blackman JW, <strong>Stanstrup J</strong>, Antalick G, Meeks C, Deloire A, Vrhovšek U, Schmidtke LM. **Grape Maturity Alters Wine Volatiles: Analytical and Sensory Approach.**<br>2016. Australian Wine Industry Techincal Conference & Trade Exhibition, Adelaide.
+	</li>
+</ul>
+
 * Koutsos A, Ulaszewska M, Fava F, **Stanstrup J**, Trost K, Mariani L, Galvin A, Braune T, Mattivi F, Lovegrove JA, Tuohy K. **Can 2 Apples a Day Decrease Cholesterol and Modulate the Gut Microbiome in Mildly Hypercholesterolae.**<br>2016. Metabolomics Society 2016 Conference. Dublin.
 * Suklje K, Carlin S, **Stanstrup J**, Antalick G, Deloire A, Vrhovšek U, Schmidtke LM. **Two dimensional gas chromatography: a powerful tool to unravel wine volatiles.**<br>2016.  13th GCxGC Symposium, Riva del Garda.
 * Whitener MEB, Divol B, **Stanstrup J**,Du Toit M, Vrhovšek U. **Metabolomics comparison of non-Saccharomyces yeasts in Sauvignon blanc and Shiraz.**.<br>2016. Macrowine 2016.
