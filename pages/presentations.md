@@ -36,56 +36,40 @@ comments: true
 <span class="label label-success"><a>Poster</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/metabomeeting_2011_jan_stanstrup.pdf?raw=true">PDF</a></span>
 
-### Contributions to other presentations
+## Contributions to other presentations
 
-**2016**
-
-* Suklje K, Carlin S, Blackman JW, **Stanstrup J**, Antalick G, Meeks C, Deloire A, Vrhovšek U, Schmidtke LM. **Grape Maturity Alters Wine Volatiles: Analytical and Sensory Approach.** 2016. Australian Wine Industry Techincal Conference & Trade Exhibition, Adelaide.
-* Koutsos A, Ulaszewska M, Fava F, **Stanstrup J**, Trost K, Mariani L, Galvin A, Braune T, Mattivi F, Lovegrove JA, Tuohy K. **Can 2 Apples a Day Decrease Cholesterol and Modulate the Gut Microbiome in Mildly Hypercholesterolae.** 2016. Metabolomics Society 2016 Conference. Dublin.
-* Suklje K, Carlin S, **Stanstrup J**, Antalick G, Deloire A, Vrhovšek U, Schmidtke LM. **Two dimensional gas chromatography: a powerful tool to unravel wine volatiles.** 2016.  13th GCxGC Symposium, Riva del Garda.
-* Whitener MEB, Divol B, **Stanstrup J**,Du Toit M, Vrhovšek U. **Metabolomics comparison of non-Saccharomyces yeasts in Sauvignon blanc and Shiraz.**. 2016. Macrowine 2016.
-* Ruocco S, Perenzoni D, Mattivi F, **Stanstrup J**, Stefanini M, Vrhovšek U. **Metabolomic profile of red non-V. vinifera genotypes**. 2016. Macrowine 2016.
-* Ulaszewska M, Trost K, **Stanstrup J**, Albanese D, De Filippo C, Tuohy K, Natella F, Scaccini C, Mattivi F. **Host: microbiome co-metabolic processing of dietary polyphenols – an acute, single blinded, cross-over study with different doses of apple polyphenols in healthy subjects.** 2016. Metabolomics Society 2016 Conference. Dublin.
-
-**2015**
-
-* Whitener MEB, **Stanstrup J**, Panzeri V, Carlin S, Divol B, Du Toit M, Vrhovšek U. **Unraveling the effects of non-Saccharomyces yeasts on Sauvignon Blanc aroma profiles; A top-down metabolomics approach complemented by sensory analysis.** 2015. YEAST 2015.
-
-**2014**
-
-* Lemut MS, Sivilotti P, Zorer R, Zulini L, **Stanstrup J**, Vrhovšek U. **Untargeted metabolomics as a tool to study grapevine biosynthetic behaviour in the relation with purposely-induced and monitored microclimate modifications in Pinot noir vineyards.**. 2014. Macrowine 2014.
-
-**2011**
-
-* Jiang P, Barri T, Jensen ML, Wan JMF, **Stanstrup J**, Dragsted LO, Sangild PT. 2011. **Urine metabolome of preterm neonates with treatment of antibiotics.** 2011. Metabomeeting 2011, Helsinki.
+* Suklje K, Carlin S, Blackman JW, **Stanstrup J**, Antalick G, Meeks C, Deloire A, Vrhovšek U, Schmidtke LM. **Grape Maturity Alters Wine Volatiles: Analytical and Sensory Approach.**<br>2016. Australian Wine Industry Techincal Conference & Trade Exhibition, Adelaide.
+* Koutsos A, Ulaszewska M, Fava F, **Stanstrup J**, Trost K, Mariani L, Galvin A, Braune T, Mattivi F, Lovegrove JA, Tuohy K. **Can 2 Apples a Day Decrease Cholesterol and Modulate the Gut Microbiome in Mildly Hypercholesterolae.**<br>2016. Metabolomics Society 2016 Conference. Dublin.
+* Suklje K, Carlin S, **Stanstrup J**, Antalick G, Deloire A, Vrhovšek U, Schmidtke LM. **Two dimensional gas chromatography: a powerful tool to unravel wine volatiles.**<br>2016.  13th GCxGC Symposium, Riva del Garda.
+* Whitener MEB, Divol B, **Stanstrup J**,Du Toit M, Vrhovšek U. **Metabolomics comparison of non-Saccharomyces yeasts in Sauvignon blanc and Shiraz.**.<br>2016. Macrowine 2016.
+* Ruocco S, Perenzoni D, Mattivi F, **Stanstrup J**, Stefanini M, Vrhovšek U. **Metabolomic profile of red non-V. vinifera genotypes**.<br>2016. Macrowine 2016.
+* Ulaszewska M, Trost K, **Stanstrup J**, Albanese D, De Filippo C, Tuohy K, Natella F, Scaccini C, Mattivi F. **Host: microbiome co-metabolic processing of dietary polyphenols – an acute, single blinded, cross-over study with different doses of apple polyphenols in healthy subjects.**<br>2016. Metabolomics Society 2016 Conference. Dublin.
+* Whitener MEB, **Stanstrup J**, Panzeri V, Carlin S, Divol B, Du Toit M, Vrhovšek U. **Unraveling the effects of non-Saccharomyces yeasts on Sauvignon Blanc aroma profiles; A top-down metabolomics approach complemented by sensory analysis.**<br>2015. YEAST 2015.
+* Lemut MS, Sivilotti P, Zorer R, Zulini L, **Stanstrup J**, Vrhovšek U. **Untargeted metabolomics as a tool to study grapevine biosynthetic behaviour in the relation with purposely-induced and monitored microclimate modifications in Pinot noir vineyards.**.<br>2014. Macrowine 2014.
+* Jiang P, Barri T, Jensen ML, Wan JMF, **Stanstrup J**, Dragsted LO, Sangild PT. 2011. **Urine metabolome of preterm neonates with treatment of antibiotics.**<br>2011. Metabomeeting 2011, Helsinki.
 
 <br>
 
 ## Teaching material
 
-#### From features to compounds: *How to get started and move forward*
-*Metabolomics Society EMN Webinar 2016*
-
-* [Slides](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/2016_Stanstrup_webinar_compound_id_intro.pptx?raw=true)
-
-#### Compound Annotation
-*NuGOweek 2016*
-
-* [Intro](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/nugoweek_intro.pptx?raw=true)
-* [Annotation](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/nugoweek_compound_id.pptx?raw=true)
-
-#### Compound identification
-*Introduction to Nutritional Metabolomics. 2016*
-
-* [Course material](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/Material.pptx?raw=true)
-  * [Isotopic pattern helper files](../material/teaching/2016_ID_NEXS/Isotopic_pattern_helpers.zip?raw=true)
-* [Slides](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id.pptx?raw=true)
-* [Exercise 2](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex2.pptx?raw=true)
-  * [Simulated spectra](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/ex2.zip?raw=true)
-* [Exercise 3 - Part 1](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex3-part1.pptx?raw=true)
-  * [Data file](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/ex3.zip?raw=true)
-* [Exercise 3 - Part 2](https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex3-part2.pptx?raw=true)
-
+* From features to compounds: *How to get started and move forward*<br>Metabolomics Society EMN Webinar 2016
+<br>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/2016_Stanstrup_webinar_compound_id_intro.pptx?raw=true">PDF</a></span>
+* Compound Annotation<br>NuGOweek 2016
+<br>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/nugoweek_intro.pptx?raw=true">Intro</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/nugoweek_compound_id.pptx?raw=true">Annotation</a></span>
+* Compound identification<br>Introduction to Nutritional Metabolomics. 2016
+<br>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/Material.pptx?raw=true">Course material</a></span>
+<span class="label label-warning"><a href="../material/teaching/2016_ID_NEXS/Isotopic_pattern_helpers.zip?raw=true">Isotopic pattern helper files</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id.pptx?raw=true">Slides</a></span>
+<br>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex2.pptx?raw=true">Exercise 2</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/ex2.zip?raw=true">Exercise 2 - Simulated spectra</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex3-part1.pptx?raw=true">Exercise 3 - Part 1</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/ex3.zip?raw=true">Exercise 3 - Data file</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex3-part2.pptx?raw=true">Exercise 3 - Part 2</a></span>
 
 
 
