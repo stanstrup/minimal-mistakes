@@ -50,20 +50,45 @@ h2 {
 
 <div id="pres_contrib"  style="display: none;">
 
-<ul>
-	<li>
-Suklje K, Carlin S, Blackman JW, <strong>Stanstrup J</strong>, Antalick G, Meeks C, Deloire A, Vrhovšek U, Schmidtke LM. **Grape Maturity Alters Wine Volatiles: Analytical and Sensory Approach.**<br>2016. Australian Wine Industry Techincal Conference & Trade Exhibition, Adelaide.
-	</li>
-</ul>
+    <ul>
 
-* Koutsos A, Ulaszewska M, Fava F, **Stanstrup J**, Trost K, Mariani L, Galvin A, Braune T, Mattivi F, Lovegrove JA, Tuohy K. **Can 2 Apples a Day Decrease Cholesterol and Modulate the Gut Microbiome in Mildly Hypercholesterolae.**<br>2016. Metabolomics Society 2016 Conference. Dublin.
-* Suklje K, Carlin S, **Stanstrup J**, Antalick G, Deloire A, Vrhovšek U, Schmidtke LM. **Two dimensional gas chromatography: a powerful tool to unravel wine volatiles.**<br>2016.  13th GCxGC Symposium, Riva del Garda.
-* Whitener MEB, Divol B, **Stanstrup J**,Du Toit M, Vrhovšek U. **Metabolomics comparison of non-Saccharomyces yeasts in Sauvignon blanc and Shiraz.**.<br>2016. Macrowine 2016.
-* Ruocco S, Perenzoni D, Mattivi F, **Stanstrup J**, Stefanini M, Vrhovšek U. **Metabolomic profile of red non-V. vinifera genotypes**.<br>2016. Macrowine 2016.
-* Ulaszewska M, Trost K, **Stanstrup J**, Albanese D, De Filippo C, Tuohy K, Natella F, Scaccini C, Mattivi F. **Host: microbiome co-metabolic processing of dietary polyphenols – an acute, single blinded, cross-over study with different doses of apple polyphenols in healthy subjects.**<br>2016. Metabolomics Society 2016 Conference. Dublin.
-* Whitener MEB, **Stanstrup J**, Panzeri V, Carlin S, Divol B, Du Toit M, Vrhovšek U. **Unraveling the effects of non-Saccharomyces yeasts on Sauvignon Blanc aroma profiles; A top-down metabolomics approach complemented by sensory analysis.**<br>2015. YEAST 2015.
-* Lemut MS, Sivilotti P, Zorer R, Zulini L, **Stanstrup J**, Vrhovšek U. **Untargeted metabolomics as a tool to study grapevine biosynthetic behaviour in the relation with purposely-induced and monitored microclimate modifications in Pinot noir vineyards.**.<br>2014. Macrowine 2014.
-* Jiang P, Barri T, Jensen ML, Wan JMF, **Stanstrup J**, Dragsted LO, Sangild PT. 2011. **Urine metabolome of preterm neonates with treatment of antibiotics.**<br>2011. Metabomeeting 2011, Helsinki.
+        <li>
+            Suklje K, Carlin S, Blackman JW, <strong>Stanstrup J</strong>, Antalick G, Meeks C, Deloire A, Vrhovšek U, Schmidtke LM. <strong>Grape Maturity Alters Wine Volatiles: Analytical and Sensory Approach.</strong><br>2016. Australian Wine Industry Techincal Conference & Trade Exhibition, Adelaide.
+        </li>
+
+        <li>
+            Koutsos A, Ulaszewska M, Fava F, <strong>Stanstrup J</strong>, Trost K, Mariani L, Galvin A, Braune T, Mattivi F, Lovegrove JA, Tuohy K. <strong>Can 2 Apples a Day Decrease Cholesterol and Modulate the Gut Microbiome in Mildly Hypercholesterolae.</strong><br>2016. Metabolomics Society 2016 Conference. Dublin.
+		</li>
+
+        <li>
+    		Suklje K, Carlin S, <strong>Stanstrup J</strong>, Antalick G, Deloire A, Vrhovšek U, Schmidtke LM. <strong>Two dimensional gas chromatography: a powerful tool to unravel wine volatiles.</strong><br>2016.  13th GCxGC Symposium, Riva del Garda.
+    	</li>
+
+        <li>
+    		Whitener MEB, Divol B, <strong>Stanstrup J</strong>,Du Toit M, Vrhovšek U. <strong>Metabolomics comparison of non-Saccharomyces yeasts in Sauvignon blanc and Shiraz.</strong>.<br>2016. Macrowine 2016.
+    	</li>
+        
+        <li>        
+    		Ruocco S, Perenzoni D, Mattivi F, <strong>Stanstrup J</strong>, Stefanini M, Vrhovšek U. <strong>Metabolomic profile of red non-V. vinifera genotypes</strong>.<br>2016. Macrowine 2016.
+    	</li>
+
+        <li>
+    		Ulaszewska M, Trost K, <strong>Stanstrup J</strong>, Albanese D, De Filippo C, Tuohy K, Natella F, Scaccini C, Mattivi F. <strong>Host: microbiome co-metabolic processing of dietary polyphenols – an acute, single blinded, cross-over study with different doses of apple polyphenols in healthy subjects.</strong><br>2016. Metabolomics Society 2016 Conference. Dublin.
+    	</li>
+        
+        <li>
+    		Whitener MEB, <strong>Stanstrup J</strong>, Panzeri V, Carlin S, Divol B, Du Toit M, Vrhovšek U. <strong>Unraveling the effects of non-Saccharomyces yeasts on Sauvignon Blanc aroma profiles; A top-down metabolomics approach complemented by sensory analysis.</strong><br>2015. YEAST 2015.
+    	</li>
+        
+        <li>
+    		Lemut MS, Sivilotti P, Zorer R, Zulini L, <strong>Stanstrup J</strong>, Vrhovšek U. <strong>Untargeted metabolomics as a tool to study grapevine biosynthetic behaviour in the relation with purposely-induced and monitored microclimate modifications in Pinot noir vineyards.</strong>.<br>2014. Macrowine 2014.
+    	</li>
+        
+        <li>
+            Jiang P, Barri T, Jensen ML, Wan JMF, <strong>Stanstrup J</strong>, Dragsted LO, Sangild PT. 2011. <strong>Urine metabolome of preterm neonates with treatment of antibiotics.</strong><br>2011. Metabomeeting 2011, Helsinki.
+    	</li>
+
+    </ul>
 
 </div>
 
