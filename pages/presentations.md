@@ -8,6 +8,12 @@ tags: ['presentations']
 comments: true
 ---
 
+<style type='text/css'>
+h2 {
+	margin-bottom: 0.1rem;
+}
+</style>
+
 ## Conference presentations
 
 * **Stanstrup J**, Neumann S, Vrhovšek U. **The Role of Retention Time in Untargeted Metabolomics.**<br>2015. II International Symposium on Profiling. Lisbon.
@@ -40,7 +46,7 @@ comments: true
 
 ## Contributions to other presentations
 
-<a href="#pres_contrib" onclick="toggle_visibility('work');" style="color: #4e4e4e;">(click to show/hide)</a>
+<a href="#pres_contrib" onclick="toggle_visibility('pres_contrib');" style="color: #4e4e4e;">(click to show/hide)</a>
 
 <div id="pres_contrib"  style="display: none;">
 
