@@ -22,18 +22,14 @@ h2 {
 <span class="label label-info"><a>Workshop organization</a></span>
 <span class="label label-primary"><a href="http://metabolomics2016.org/images/2016-Metabolomics-Workshop-Detailed-Overview-5-24-16.pdf">Program</a></span>
 <span class="label label-primary"><a href="https://goo.gl/pW0U0a">Community notes</a></span>
-* **Stanstrup J**, Neumann S, Vrhovšek U. **The Role of Retention Time in Untargeted Metabolomics.**<br>2015. II International Symposium on Profiling. Lisbon.
-<br>
-<span class="label label-info"><a>Oral</a></span>
-<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/raw/master/material/presentations/ISPROF_2015_jan_stanstrup.pdf?raw=true">Slides</a></span>
-* **Stanstrup J**, Dragsted LO, Neumann S. **Approaches for the Rapid Processing & Annotation of Mass Spectrometry Data.**<br>2013. Metabolomics Society 2013 Conference, Glasgow.
-<br>
-<span class="label label-info"><a>Oral</a></span>
-<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/raw/master/material/presentations/Metabolomics_Society_Conference%202013_no_notes_Jan_Stanstrup.pptx?raw=true">Slides</a></span>
 * **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems.**<br>2015. Metabomeeting 2015. Cambridge.
 <br>
 <span class="label label-success"><a>Poster</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/Metabolomics_2015_Jan_Stanstrup.pdf?raw=true">PDF</a></span>
+* **Stanstrup J**, Neumann S, Vrhovšek U. **The Role of Retention Time in Untargeted Metabolomics.**<br>2015. II International Symposium on Profiling. Lisbon.
+<br>
+<span class="label label-info"><a>Oral</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/raw/master/material/presentations/ISPROF_2015_jan_stanstrup.pdf?raw=true">Slides</a></span>
 * **Stanstrup J**, Neumann S, Vrhovšek U. **PredRet: Prediction of Retention Time by Direct Mapping between Multiple Chromatographic Systems.**<br>2015. Metabolomics Society 2015 Conference. San Francisco.
 <br>
 <span class="label label-success"><a>Poster</a></span>
@@ -43,6 +39,10 @@ h2 {
 * **Stanstrup J**, Vrhovšek U. **Comprehensive sharing and mapping of RPLC retention time information**.<br>2014. AISBM 2014 - Challenges in annotation and de novo identification of small molecules, Gif-sur-Yvette. <br>
 <span class="label label-success"><a>Poster</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/AISBM_2014_jan_stanstrup.pdf?raw=true">PDF</a></span>
+* **Stanstrup J**, Dragsted LO, Neumann S. **Approaches for the Rapid Processing & Annotation of Mass Spectrometry Data.**<br>2013. Metabolomics Society 2013 Conference, Glasgow.
+<br>
+<span class="label label-info"><a>Oral</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/raw/master/material/presentations/Metabolomics_Society_Conference%202013_no_notes_Jan_Stanstrup.pptx?raw=true">Slides</a></span>
 * **Stanstrup J**, Rago D, Holmer-Jensen J, Hermansen K, Dragsted LO. **Dairy proteins’ effect on metabolism in obese non-diabetics.**<br>2011. Metabomeeting 2011, Helsinki.
 <br>
 <span class="label label-success"><a>Poster</a></span>
@@ -101,17 +101,16 @@ h2 {
 <br>
 
 ## Teaching material
-
-* **From features to compounds: *How to get started and move forward***<br>Metabolomics Society EMN Webinar 2016
-<br>
-<span class="label label-info"><a>Live webinar</a></span>
-<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/2016_Stanstrup_webinar_compound_id_intro.pptx?raw=true">Slides</a></span>
-<span class="label label-primary"><a href="http://metabolomicssociety.org/resources/videos/88-videos/218-2016-emn-webinars-public">Video</a></span>
 * **Compound Annotation**<br>NuGOweek 2016
 <br>
 <span class="label label-info"><a>Lecture</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/nugoweek_intro.pptx?raw=true">Intro</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/nugoweek_compound_id.pptx?raw=true">Annotation</a></span>
+* **From features to compounds: *How to get started and move forward***<br>Metabolomics Society EMN Webinar 2016
+<br>
+<span class="label label-info"><a>Live webinar</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/2016_Stanstrup_webinar_compound_id_intro.pptx?raw=true">Slides</a></span>
+<span class="label label-primary"><a href="http://metabolomicssociety.org/resources/videos/88-videos/218-2016-emn-webinars-public">Video</a></span>
 * **Compound identification**<br>Introduction to Nutritional Metabolomics. 2016
 <br>
 <span class="label label-info"><a>One day lecture</a></span>
