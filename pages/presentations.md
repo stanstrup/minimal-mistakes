@@ -16,6 +16,12 @@ h2 {
 
 ## Conference presentations
 
+
+* **Stanstrup J** and Neumann S. **MetaRbolomics: The R toolbox for Metabolomics**<br>2016. Metabolomics Society 2016 Conference, Dublin, Ireland.
+<br>
+<span class="label label-info"><a>Workshop organization</a></span>
+<span class="label label-primary"><a href="http://metabolomics2016.org/images/2016-Metabolomics-Workshop-Detailed-Overview-5-24-16.pdf">Program</a></span>
+<span class="label label-primary"><a href="https://goo.gl/pW0U0a">Community notes</a></span>
 * **Stanstrup J**, Neumann S, Vrhovšek U. **The Role of Retention Time in Untargeted Metabolomics.**<br>2015. II International Symposium on Profiling. Lisbon.
 <br>
 <span class="label label-info"><a>Oral</a></span>
