@@ -103,10 +103,12 @@ h2 {
 <span class="label label-warning"><a href="http://metabolomicssociety.org/resources/videos/88-videos/218-2016-emn-webinars-public">Video</a></span>
 * **Compound Annotation**<br>NuGOweek 2016
 <br>
+<span class="label label-info"><a>Lecture</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/nugoweek_intro.pptx?raw=true">Intro</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/nugoweek_compound_id.pptx?raw=true">Annotation</a></span>
 * **Compound identification**<br>Introduction to Nutritional Metabolomics. 2016
 <br>
+<span class="label label-info"><a>One day lecture</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/Material.pptx?raw=true">Course material</a></span>
 <span class="label label-warning"><a href="../material/teaching/2016_ID_NEXS/Isotopic_pattern_helpers.zip?raw=true">Isotopic pattern helper files</a></span>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id.pptx?raw=true">Slides</a></span>
