@@ -99,6 +99,7 @@ h2 {
 * **From features to compounds: *How to get started and move forward***<br>Metabolomics Society EMN Webinar 2016
 <br>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/2016_Stanstrup_webinar_compound_id_intro.pptx?raw=true">Slides</a></span>
+<span class="label label-info"><a href="http://metabolomicssociety.org/resources/videos/88-videos/218-2016-emn-webinars-public">Video</a></span>
 * **Compound Annotation**<br>NuGOweek 2016
 <br>
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/nugoweek_intro.pptx?raw=true">Intro</a></span>
