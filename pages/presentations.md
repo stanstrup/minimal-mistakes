@@ -101,6 +101,15 @@ h2 {
 <br>
 
 ## Teaching material
+* **Compound identification**<br>Introduction to Nutritional Metabolomics. 2017
+<br>
+<span class="label label-info"><a>One day lecture</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/Material.pptx?raw=true">Course material</a></span>
+<span class="label label-warning"><a href="../material/teaching/2016_ID_NEXS/Isotopic_pattern_helpers.zip?raw=true">Isotopic pattern helper files</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2017_ID_NEXS/compound_id_2017.pptx?raw=true">Slides</a></span>
+<br>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2017_ID_NEXS/Ex2.zip?raw=true">Exercise 2 - Slides</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2017_ID_NEXS/Ex3.zip?raw=true">Exercise 3</a></span>
 * **Compound Annotation**<br>NuGOweek 2016
 <br>
 <span class="label label-info"><a>Lecture</a></span>
