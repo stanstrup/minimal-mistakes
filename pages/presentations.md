@@ -137,6 +137,8 @@ h2 {
 
 {% comment %}*  ########## THINGS TO BE ADDED ##########
 
+Šuklje K, Carlin S, Blackman JW, Stanstrup J, Guillaume A, Campbell M, Alain D, Vrhovsek U, Schmidtke LM
 
+Unravelling the Effect of Harvest Date on Shiraz Wine Volatile Composition by Two  Dimensional Gas Chromatography and Wine Sensory Analyses
 
 {% endcomment %}
