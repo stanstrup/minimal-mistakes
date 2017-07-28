@@ -16,7 +16,20 @@ h2 {
 
 ## Conference presentations
 
-
+**Stanstrup J**, Cruickshank-Quinn C. **EMN Workshop: MS Metabolomics Data Processing**<br>2017. Metabolomics Society 2017 Conference. Brisbane.
+<br>
+<span class="label label-info"><a>Workshop organization</a></span>
+<span class="label label-primary"><a href="http://metabolomics2017.org/images/workshop-book/Workshop-Details-6-21-17.pdf">Program</a></span>
+* **Stanstrup J**. **XCMS workshop 2017**<br>2017. Metabolomics Society 2017 Conference. Brisbane.
+<br>
+<span class="label label-info"><a>Oral</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/Metabolomics_2017_QC_Jan_Stanstrup.pptx?raw=true">Slides</a></span>
+* **Stanstrup J**, Lindgreen S. **Automated Real-Time Quality Control of LC-MS Metabolomics Data**<br>2017. Metabolomics Society 2017 Conference. Brisbane.
+<br>
+<span class="label label-info"><a>Oral</a></span>
+<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/Metabolomics_2017_QC_Jan_Stanstrup.pptx?raw=true">Slides</a></span>
+<br>
+<span class="award"><i class="fa fa-trophy"></i> Metabolomics Society Travel award</span>
 * **Stanstrup J**, Neumann S. **MetaRbolomics: The R toolbox for Metabolomics**<br>2016. Metabolomics Society 2016 Conference, Dublin, Ireland.
 <br>
 <span class="label label-info"><a>Workshop organization</a></span>
