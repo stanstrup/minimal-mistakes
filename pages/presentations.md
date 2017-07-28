@@ -23,7 +23,7 @@ h2 {
 * **Stanstrup J**. **XCMS workshop 2017**<br>2017. Metabolomics Society 2017 Conference. Brisbane.
 <br>
 <span class="label label-info"><a>Oral</a></span>
-<span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/presentations/Metabolomics_2017_QC_Jan_Stanstrup.pptx?raw=true">Slides</a></span>
+<span class="label label-warning"><a href="https://cdn.rawgit.com/stanstrup/stanstrup.github.io/fc903e22/material/presentations/1.%20XCMS.html">Slides</a></span>
 * **Stanstrup J**, Lindgreen S. **Automated Real-Time Quality Control of LC-MS Metabolomics Data**<br>2017. Metabolomics Society 2017 Conference. Brisbane.
 <br>
 <span class="label label-info"><a>Oral</a></span>
