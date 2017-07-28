@@ -28,7 +28,12 @@ li {
 <span class="label label-primary"><a href="http://dx.doi.org/10.1007/s00216-013-6954-6">DOI</a></span>
 
 ### Agricultural metabolomics
-* Whitener MEB, **Stanstrup J**, Carlin S, Divol B, Du Toit M, Vrhovšek U. **The effect of non-Saccharomyces yeasts on the volatile chemical profile of Shiraz wine.** Australian Journal of Grape and Wine Research. (*in press*).
+* Ruocco S, Stefanini M, **Stanstrup J**, Perenzoni D, Mattivi F, Vrhovšek U. **The metabolomic profile of red non-*V. vinifera* genotypes**. Food Research International. 2017; 98:10-19.
+<br>
+<span class="label label-primary"><a href="http://dx.doi.org/10.1016/j.foodres.2017.01.024">DOI</a></span>
+* Whitener MEB, **Stanstrup J**, Carlin S, Divol B, Du Toit M, Vrhovšek U. **The effect of non-Saccharomyces yeasts on the volatile chemical profile of Shiraz wine.** Australian Journal of Grape and Wine Research. 2017; 23(2):179-192.
+<br>
+<span class="label label-primary"><a href="http://dx.doi.org/10.1111/ajgw.12269">DOI</a></span>
 * Whitener MEB, **Stanstrup J**, Panzeri V, Carlin S, Divol B, Du Toit M, Vrhovšek U. **Untangling the wine metabolome by combining untargeted SPME–GCxGC-TOF-MS and sensory analysis to profile Sauvignon blanc co-fermented with seven different yeasts.** Metabolomics. 2016; 12(3):53.
 <br>
 <span class="label label-primary"><a href="http://dx.doi.org/10.1007/s11306-016-0962-4">DOI</a></span>
