@@ -147,6 +147,9 @@ h2 {
 <span class="label label-warning"><a href="https://github.com/stanstrup/stanstrup.github.io/blob/master/material/teaching/2016_ID_NEXS/compound_id%20-%20ex3-part2.pptx?raw=true">Exercise 3 - Part 2 - Slides</a></span>
 
 
+## Other participation
+
+* Attended the 2017 Dagstuhl Seminar on *[Computational Metabolomics: Identification, Interpretation, Imaging](http://dx.doi.org/10.4230/DagRep.7.12.1)*.
 
 {% comment %}*  ########## THINGS TO BE ADDED ##########
 
@@ -154,4 +157,7 @@ h2 {
 
 Unravelling the Effect of Harvest Date on Shiraz Wine Volatile Composition by Two  Dimensional Gas Chromatography and Wine Sensory Analyses
 
+Luca paper
+
+AGAR
 {% endcomment %}
